@@ -17,6 +17,8 @@ a{
 .logoDiv{
     display: flex;
     align-items: center;
+    gap: 20px;
+    justify-content: center;
 }
 .logoDiv img{
     width: 70px;
@@ -45,7 +47,7 @@ align-items: center;
     /* border: 1px solid blue; */
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 .linkdiv a{
   transition: all ease-in .5s;
@@ -59,7 +61,7 @@ align-items: center;
 }
 .iconDiv{
     display: flex;
-    gap: 1px;
+    gap: 10px;
     align-items: center;
 }
 .connect{
@@ -108,7 +110,7 @@ align-items: center;
 }
 .hide{
     display: flex;
-    gap: 20px;
+    gap: 100px;
   }
 
 
