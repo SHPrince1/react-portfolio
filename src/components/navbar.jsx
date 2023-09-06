@@ -1,8 +1,9 @@
 import {React, useState} from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 // css importtaions
 import style from "../styles/navbar.module.css";
 import style2 from "../styles/reactIconStyles.module.css";
+import '../App.css'
 
 // icons importation
 import {
@@ -27,9 +28,9 @@ const Navbar = () => {
     <>
       <div className={style.parentDiv}>
         <div className={style.logoDiv}>
-          <Link to="#">
+          <NavLink to="/">
             <img src={Logo} size={20} />
-          </Link>
+          </NavLink>
           {/* <div className={style.menuDiv}>
           <Hamburger distance="sm" />
 
@@ -40,23 +41,23 @@ const Navbar = () => {
         <div className={ visible ? style.linksParentDiv : style.hide}>
           
           <div className={style.linkdiv}>
-            <Link to="#">Home</Link>
-            <Link to="#">Skills</Link>
-            <Link to="#">Projects</Link>
+            <NavLink to="/" activeClassName={style.active}>Home</NavLink>
+            <NavLink to="/about">Skills</NavLink>
+            <NavLink to="/project">Projects</NavLink>
           </div>
           <div className={style.iconDiv}>
-            <Link to="#">
+            <NavLink to="https://github.com/SHPrince1">
               <AiFillGithub className={style2.Icons} />
-            </Link>
-            <Link to="#">
+            </NavLink>
+            <NavLink to="https://www.linkedin.com/feed/">
               <AiFillLinkedin className={style2.Icons} />
-            </Link>
-            <Link to="#">
+            </NavLink>
+            <NavLink to="https://twitter.com/SHPrince_">
               <AiFillTwitterSquare className={style2.Icons} />
-            </Link>
+            </NavLink>
           </div>
           <div className={style.connect}>
-            <Link to=""> Let's Connect</Link>
+            <NavLink to ="mailto:princehsylvanus@gmail.com"> Email Me</NavLink>
           </div>
           
         </div>

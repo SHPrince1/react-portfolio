@@ -3,6 +3,9 @@ a{
     color: #fff;
     font-size: 20px;
 }
+.active{
+    color: red;
+}
 
 .parentDiv {
   /* border: 1px solid #000; */

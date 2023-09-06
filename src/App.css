@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.active{
+  text-decoration: underline !important;
+  text-decoration-color: blue !important;
+  text-decoration-thickness: 4px !important;
+  -moz-text-decoration-color: blue !important;
+}
+.active :after{
+  content:""; 
+  float:left; 
+  background:green; 
+  width:100%; 
+  height:6px; 
+  border-radius: 3px;
+}
