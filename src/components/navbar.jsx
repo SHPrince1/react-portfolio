@@ -1,12 +1,12 @@
 import { React, useState, useEffect } from "react";
-import { Link, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 // css importtaions
 import style from "../styles/navbar.module.css";
 import style2 from "../styles/reactIconStyles.module.css";
 // import "../App.css";
 
 // icons importation
-import {AiFillGithub,AiFillLinkedin,AiFillTwitterSquare,} from "react-icons/ai";
+import {AiFillGithub,AiFillLinkedin, AiFillTwitterCircle} from "react-icons/ai";
 import { Spin as Hamburger } from "hamburger-react";
 
 // Imported images
@@ -15,7 +15,7 @@ import Logo from "../assets/sh-logo.png";
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
   const [activeLink, setActiveLink] = useState("home");
-  const [scroll, setScroll] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   function ToggleBurger() {
     setVisible(!visible);
@@ -30,9 +30,9 @@ const Navbar = () => {
     const onScroll =()=>{
 
       if(window.scrollY > 50){
-        setScroll(true);
+        setScrolled(true);
       }else{
-        setScroll(false);
+        setScrolled(false);
       }
     }
 
@@ -42,10 +42,10 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={scroll ? 'scroll' : style.parentDiv}>
+      <div className={scrolled ? 'scrolled' : style.parentDiv}>
         <div className={style.logoDiv}>
           <NavLink to="/">
-            <img src={Logo} size={20} />
+            <img src={Logo} size={20} alt="logo"/>
           </NavLink>
           {/* <div className={style.menuDiv}>
           <Hamburger distance="sm" />
@@ -68,7 +68,7 @@ const Navbar = () => {
               <AiFillLinkedin className={style2.Icons} />
             </NavLink>
             <NavLink to="https://twitter.com/SHPrince_">
-              <AiFillTwitterSquare className={style2.Icons} />
+              <AiFillTwitterCircle className={style2.Icons} />
             </NavLink>
           </div>
           <div className={style.connect}>

@@ -1,17 +1,33 @@
+.Icons {
+  /* height: 40px;
+  width: 40px; */
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  background: linear-gradient(45deg, white 0%, #121212 10%);
+  border-radius: 20px;
+  background-size: 200% 100%;
 
+  background-image: linear-gradient(white, white);
+  background-repeat: no-repeat;
+  transition: background-size 0.5s, color 0.5s;
+  background-size: 0 0;
+  background-position: 50% 50%;
+  border-radius: 30px;
+}
+.Icons:hover {
+  color: rgba(34, 164, 116, 1);
+  /* background: linear-gradient(45deg, rgba(34,164,116,1) 0%, rgba(41,47,143,1) 100%); */
 
-.Icons{
-    display: flex;
-    align-items: center;
-    font-size: 30px;
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+
+  .Icons {
+    /* height:20px;
+    width: 20px; */
+    font-size:20px;
   }
-  
-
-@media only screen and (max-width: 425px){
-	/*Small smartphones [325px -> 425px]*/
-
-    .Icons{
-    
-        font-size: 25px;
-      }
 }

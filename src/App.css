@@ -43,7 +43,7 @@ html{
   scroll-padding-top: 75px;
 }
 .active{
-  text-decoration: underline !important;
+  /* text-decoration: underline !important; */
   text-decoration-color: blue !important;
   text-decoration-thickness: 4px !important;
   -moz-text-decoration-color: blue !important;

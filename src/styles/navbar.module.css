@@ -21,6 +21,15 @@ a{
 .logoDiv img{
     width: 70px;
     height: 60px;
+    transition: all ease-out .5s;
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -ms-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+}
+.logoDiv img:hover{
+  
+  margin-right: -30px;
 }
 .menuDiv{
     display: none;
@@ -38,9 +47,19 @@ align-items: center;
   align-items: center;
   gap: 20px;
 }
+.linkdiv a{
+  transition: all ease-in .5s;
+  -webkit-transition: all ease-in .5s;
+  -moz-transition: all ease-in .5s;
+  -ms-transition: all ease-in .5s;
+  -o-transition: all ease-in .5s;
+}
+.linkdiv a:hover{
+  color: #707070;
+}
 .iconDiv{
     display: flex;
-    gap: 10px;
+    gap: 1px;
     align-items: center;
 }
 .connect{
@@ -56,7 +75,7 @@ align-items: center;
     background: linear-gradient(to right, white 50%, #121212 50%);
     background-position: right bottom;
     background-size: 200% 100%;
-    transition: all 1s ease-out;
+    /* transition: all 1s ease-out; */
    
 }
 
