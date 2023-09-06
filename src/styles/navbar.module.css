@@ -82,7 +82,7 @@ align-items: center;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
+       
       }
       .logoDiv{
           display: flex;
@@ -125,7 +125,7 @@ align-items: center;
         -o-transform: (translate(100));
 }
       .linkdiv a{
-        font-size: 16px;
+        font-size: 14px;
         /* color: red      ; */
       }
       .iconDiv{
