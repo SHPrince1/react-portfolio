@@ -1,0 +1,16 @@
+
+
+.Icons{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+  }
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+
+    .Icons{
+    
+        font-size: 25px;
+      }
+}
