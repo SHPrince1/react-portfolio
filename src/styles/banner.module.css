@@ -1,0 +1,155 @@
+p,
+h1 {
+  font-family: poppins;
+}
+.parentDiv {
+  /* border: 1px solid red; */
+  /* background-color: black; */
+  height: 100vh;
+  
+}
+
+.sectionOne {
+    margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.textPart {
+  /* border: 1px solid #000; */
+  width: 37%;
+  display: block;
+  gap: 10px;
+}
+.welcome{
+    background-color: blueviolet;
+    /* border: 1px solid #fff; */
+    color: aliceblue;
+    font-family: poppins;
+    font-size: 22px;
+    margin: 0;
+    
+    width: 60%;
+    height: 50px;   
+}
+
+.welcome p{
+    font-family: poppins;
+    align-items: center;
+    justify-content: center;
+   
+    padding: 12px 30px;
+  }
+  .nameAndAnimation{
+    line-height: 23px;
+}
+
+.nameAndAnimation h2{
+    font-size: 40px;
+}
+.aboutMeText{
+    margin-top: 30px;
+}
+.aboutMeText p{
+    font-size: 20px;
+    /* margin-top: 20px; */
+    font-family: poppins;
+   line-height: 32px;
+ }
+ .connectDiv{
+  /* border: 1px solid red; */
+  width: 190px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ }
+ .connectDiv a{
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+ }
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .parentDiv {
+    /* border: 1px solid red; */
+    padding: 2px;
+    margin: 2px;
+  }
+
+  .sectionOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .textPart {
+    /* border: 1px solid #000; */
+    width: 95%;
+    padding: 10px;
+  }
+  .welcome {
+    background-color: blueviolet;
+    /* border: 1px solid #fff; */
+    color: aliceblue;
+    font-family: poppins;
+    font-size: 22px;
+    margin: 0;
+    width: 70%;
+    height: 34px;
+  }
+  .welcome p{
+    font-family: poppins;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px;
+  }
+.nameAndAnimation{
+    line-height: 13px;
+}
+.nameAndAnimation h2{
+    font-size: 30px;
+    font-family: poppins;
+}
+ .aboutMeText p{
+    margin-top: 20px;
+    font-family: poppins;
+ }
+ .connectDiv{
+ /*border: 1px solid red;
+ */width: 160px;
+ height: 28px;
+ /*justify-content: center;
+ */display: flex;
+ align-items: center;
+ gap: 5px;
+ transition: all ease-in-out 1s;
+ -webkit-transition: all ease-in-out 1s;
+ -moz-transition: all ease-in-out 1s;
+ -ms-transition: all ease-in-out 1s;
+ -o-transition: all ease-in-out 1s;
+}
+
+.connectDiv :hover{
+  margin-right: 10px;
+}
+ .connectDiv a{
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+
+ }
+}
