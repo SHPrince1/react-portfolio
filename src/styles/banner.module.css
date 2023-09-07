@@ -57,13 +57,26 @@ h1 {
    line-height: 32px;
  }
  .connectDiv{
-  /* border: 1px solid red; */
-  width: 190px;
+  /*border: 1px solid red;
+  */width: 190px;
   justify-content: center;
   display: flex;
   align-items: center;
   gap: 10px;
- }
+  transition: all ease-in-out .5s ;
+  -webkit-transition: all ease-in-out .5s ;
+  -moz-transition: all ease-in-out .5s ;
+  -ms-transition: all ease-in-out .5s ;
+  -o-transition: all ease-in-out .5s ;
+}
+ .connectDiv :hover{
+  transition: all ease-in-out.5s;
+  margin-left: 10px;
+  -webkit-transition: all ease-in-out.5s;
+  -moz-transition: all ease-in-out.5s;
+  -ms-transition: all ease-in-out.5s;
+  -o-transition: all ease-in-out.5s;
+}
  .connectDiv a{
   color: #000;
   display: flex;
@@ -133,15 +146,12 @@ h1 {
  */display: flex;
  align-items: center;
  gap: 5px;
- transition: all ease-in-out 1s;
- -webkit-transition: all ease-in-out 1s;
- -moz-transition: all ease-in-out 1s;
- -ms-transition: all ease-in-out 1s;
- -o-transition: all ease-in-out 1s;
+ transition: all 1s ease-in-out;
 }
 
 .connectDiv :hover{
   margin-right: 10px;
+  /* background-color: #000; */
 }
  .connectDiv a{
   color: #000;
