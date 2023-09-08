@@ -27,7 +27,7 @@ const Banner = () => {
               </p>
             </div>
             <div className={style.connectDiv}>
-              <NavLink to='#'>
+              <NavLink  className={style.connectDivLink} to='#'>
               Let's connect < BsFillArrowRightSquareFill  size={30}/>
                 </NavLink>
              

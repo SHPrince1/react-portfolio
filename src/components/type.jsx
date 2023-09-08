@@ -13,18 +13,19 @@ const TypedAnimation = () => {
   display:flex;
   align-items:center;
     font-size: 44px;
-     width: 500px;
+     width: fit-content;
      height: 60px;
+     border-radius:20px;
      font-family: 'rubik';
      font-weight:bold;
      text-shadow:0px 0px 20px rgb(255,255,255);
      box-shadow:0px 0px 8px rgb(255,255,255);
      color:red;
-     background-color: #6666ff;
+    //  background-color: #6666ff;
 
     @media (max-width: 425px) {
       font-size: 28px;
-      width: 330px!important;
+      width: fit-content;
       font-weight:bold;
       height: 60px;
       font-family: 'rubik';
