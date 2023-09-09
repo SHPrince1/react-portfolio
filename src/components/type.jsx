@@ -46,15 +46,17 @@ const TypedAnimation = () => {
       <TypedContainer>
         <TypeAnimation
           sequence={[
+            "A Problem Solver",
+            2000,
             // Same substring at the start will only be typed out once, initially
             "A ReactJS Developer",
-            1000, // wait 1s before replacing "Mice" with "Hamsters"
+            2000, // wait 1s before replacing "Mice" with "Hamsters"
             "A Software Engineer",
-            1000,
+            2000,
             "AN IT Support Engineer",
-            1000,
+            2000,
             "A Tech Ethusiast",
-            1000,
+            2000,
            
           ]}
          

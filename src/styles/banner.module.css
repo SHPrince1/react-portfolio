@@ -172,6 +172,8 @@ h1 {
     line-height: 13px;
 }
 .nameAndAnimation h2{
+  width: 300px;
+  line-height: 1;
     font-size: 30px;
     font-family: poppins;
 }
