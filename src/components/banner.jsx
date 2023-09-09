@@ -25,6 +25,7 @@ const Banner = () => {
                 dolor sit amet consectetur 
                  
               </p>
+              
             </div>
             <div className={style.connectDiv}>
               <NavLink  className={style.connectDivLink} to='#'>

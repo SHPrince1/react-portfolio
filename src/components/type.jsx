@@ -12,28 +12,32 @@ const TypedAnimation = () => {
   const TypedContainer = styled.div`
   display:flex;
   align-items:center;
-    font-size: 44px;
+    font-size: 38px;
      width: fit-content;
-     height: 60px;
+     height: 65px;
      border-radius:20px;
      font-family: 'rubik';
      font-weight:bold;
      text-shadow:0px 0px 20px rgb(255,255,255);
      box-shadow:0px 0px 8px rgb(255,255,255);
-     color:red;
-    //  background-color: #6666ff;
+     color:#fff;
+     background-color: #000;
+     border-radius: 20px  5px 10px 10px;
 
     @media (max-width: 425px) {
-      font-size: 28px;
+      font-size: 20px;
       width: fit-content;
       font-weight:bold;
-      height: 60px;
+      height: 45px;
       font-family: 'rubik';
       font-weight:bold;
+      padding: 3px 20px 2px 20px;
       text-shadow:0px 0px 20px rgb(255,255,255);
       box-shadow:0px 0px 8px rgb(255,255,255);
-      color:red;
-      background-color: #6666ff;
+      color:#fff;
+      background-color: #000;
+      border-radius: 20px  5px 10px 10px;
+      // margin-top:-10px;
     }
   `;
 

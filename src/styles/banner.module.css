@@ -6,7 +6,8 @@ h1 {
   /* border: 1px solid red; */
   /* background-color: black; */
   height: 100vh;
-  
+  position: absolute;
+  margin: 64px 2px;
 }
 
 .sectionOne {
@@ -17,20 +18,23 @@ h1 {
 
 .textPart {
   /* border: 1px solid #000; */
-  width: 37%;
+  width: 40%;
   display: block;
   gap: 10px;
 }
 .welcome{
-    background-color: blueviolet;
-    /* border: 1px solid #fff; */
-    color: aliceblue;
+    background-color: #000;
+    /*border: 1px solid #fff;
+    */color: aliceblue;
     font-family: poppins;
     font-size: 22px;
     margin: 0;
-    
-    width: 60%;
-    height: 50px;   
+    border-radius:20px;
+    width: 55%;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+   
 }
 
 .welcome p{
@@ -132,7 +136,7 @@ h1 {
   .parentDiv {
     /* border: 1px solid red; */
     padding: 2px;
-    margin: 2px;
+    margin: 34px 0px;
   }
 
   .sectionOne {
@@ -146,15 +150,16 @@ h1 {
     padding: 10px;
   }
   .welcome {
-    background-color: blueviolet;
+    background-color: #000;
     /* border: 1px solid #fff; */
     color: aliceblue;
     font-family: poppins;
     font-size: 22px;
     margin: 0;
-    width: 86%;
+    width: 89%;
     height: 48px;
     align-items: center;
+    justify-content: center;
     display: flex;
   }
   .welcome p{

@@ -42,7 +42,8 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={scrolled ? 'scrolled' : style.parentDiv}>
+      <div className={ style.parentDiv}>
+      {/* <div className={scrolled ? 'scrolled' : style.parentDiv}> */}
         <div className={style.logoDiv}>
           <NavLink to="/">
             <img src={Logo} size={20} alt="logo"/>
