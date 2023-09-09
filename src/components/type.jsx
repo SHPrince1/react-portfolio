@@ -57,6 +57,7 @@ const TypedAnimation = () => {
             2000,
             "A Tech Ethusiast",
             2000,
+            "A ReactJS Developer",
            
           ]}
          
@@ -70,7 +71,7 @@ const TypedAnimation = () => {
             // fontFamily: "sacramento",
             
           }}
-          repeat={Infinity}
+          repeat={0}
         />
       </TypedContainer>
     </div>

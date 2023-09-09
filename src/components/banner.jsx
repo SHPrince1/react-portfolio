@@ -3,7 +3,8 @@ import style from "../styles/banner.module.css";
 import TypedAnimation from "./type";
 import { BsFillArrowRightSquareFill}  from 'react-icons/bs'
 import { NavLink } from "react-router-dom";
-import Loader from "../components/loader";
+import MyImage from '../assets/img4.jpg'
+
 
 const Banner = () => {
   return (
@@ -30,7 +31,7 @@ const Banner = () => {
               
             </div>
             <div className={style.connectDiv}>
-              <NavLink  className={style.connectDivLink} to='#'>
+              <NavLink  className={style.connectDivLink} to='#' onClick={()=>console.log('connect')}>
               Let's connect < BsFillArrowRightSquareFill  size={30}/>
                 </NavLink>
              
@@ -39,7 +40,7 @@ const Banner = () => {
           </div>
 
           <div className={style.imageDiv}>
-            <h1>IMAGE</h1>
+            <img src={MyImage} alt='My own image' width={450} height={450} className={style.img}/>
           </div>
         </div>
       </div>

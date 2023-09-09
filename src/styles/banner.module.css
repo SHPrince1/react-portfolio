@@ -2,12 +2,25 @@ p,
 h1 {
   font-family: poppins;
 }
+body{
+  cursor: context-menu;
+}
 .parentDiv {
   /* border: 1px solid red; */
   /* background-color: black; */
+  /* background-image: "url(/image.png)", */
+  background-image: url(../assets/pbg1.jpg);
+  background-size: cover;
+  /* opacity: 0.5; */
+  width: fit-content;
+  cursor: context-menu;
+
   height: 100vh;
   position: absolute;
   margin: 64px 2px;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
 }
 
 .sectionOne {
@@ -24,11 +37,11 @@ h1 {
 }
 .welcome{
     background-color: #000;
-    /*border: 1px solid #fff;
-    */color: aliceblue;
+    border: 1px solid #fff;
+    color: aliceblue;
     font-family: poppins;
     font-size: 22px;
-    margin: 0;
+    margin: 8px;
     border-radius:20px;
     width: 55%;
     align-items: center;
@@ -42,7 +55,9 @@ h1 {
     align-items: center;
     justify-content: center;
    
-    padding: 12px 30px;
+    /* padding: -10px 20px; */
+  display: flex;
+  margin-top: 10px;
   }
   .nameAndAnimation{
     line-height: 23px;
@@ -122,7 +137,11 @@ h1 {
      color: #000 !important;
      background-position: left bottom;
  }
-
+.img{
+  /*width: 100%;*/
+  border-radius: 300px;
+ 
+}
 /* MEDIA QUERY */
 
 @media only screen and (max-width: 1200px) {
