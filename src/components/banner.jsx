@@ -14,7 +14,7 @@ const Banner = () => {
               <p>Welcome to my Portfolio</p>
             </div>
             <div className={style.nameAndAnimation}>
-              <h2>Hi! I'M Sylvanus Prince</h2>
+              <h2>Hi! I'm Sylvanus Prince</h2>
               <TypedAnimation />
             </div>
             <div className={style.aboutMeText}>
