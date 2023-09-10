@@ -156,6 +156,7 @@ body{
     /* border: 1px solid red; */
     padding: 2px;
     margin: 34px 0px;
+    height: auto;
   }
 
   .sectionOne {
@@ -186,6 +187,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 3px 10px;
+    margin-top: 18px;
   }
 .nameAndAnimation{
     line-height: 13px;
@@ -256,4 +258,16 @@ body{
   color: #000 !important;
   background-position: left bottom;
  }
-}
+ .imageDiv img{
+  width: 340px !important;
+  height: 350px;
+  margin-top: 20px;
+  margin-left: 16px;
+  border-radius: 140px;
+  -webkit-border-radius: 140px;
+  -moz-border-radius: 140px;
+  -ms-border-radius: 140px;
+  -o-border-radius: 140px;
+  display: flex;
+  justify-content: center;
+}}
