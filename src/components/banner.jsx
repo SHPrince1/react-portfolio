@@ -15,13 +15,13 @@ const Banner = () => {
   const parallaxData = [
     {
       start: 0,
-      end: 500,
+      end:700,
      
       properties: [
         {duration:1000,
           startValue: 1,
           transition:'easeOutCubic',
-          endValue: 2,
+          endValue: 0,
           property: "scale",
         },
       ],
@@ -32,7 +32,11 @@ const Banner = () => {
   return (
     <>
 
-<Plx className="MyAwesomeParallax" parallaxData={parallaxData}>
+<Plx className="MyAwesomeParallax" parallaxData={parallaxData} 
+style={{
+  
+}}
+>
 <div className={style.parentDiv}>
         <div className={style.sectionOne}>
           <div className={style.textPart}>
@@ -71,32 +75,7 @@ const Banner = () => {
       </Plx>
 
       <div>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
+      
         
       </div>
       
