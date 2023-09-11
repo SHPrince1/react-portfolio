@@ -2,7 +2,7 @@ p,
 h1 {
   font-family: poppins;
 }
-body{
+body {
   cursor: context-menu;
 }
 .parentDiv {
@@ -28,7 +28,7 @@ body{
 }
 
 .sectionOne {
-    margin-top: 20px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-around;
 }
@@ -39,54 +39,53 @@ body{
   display: block;
   gap: 10px;
 }
-.welcome{
-    background-color: #000;
-    border: 1px solid #fff;
-    color: aliceblue;
-    font-family: poppins;
-    font-size: 22px;
-    margin: 8px;
-    border-radius:20px;
-    width: 55%;
-    align-items: center;
-    justify-content: center;
-    height: 55px;
-   
+.welcome {
+  background-color: #000;
+  border: 1px solid #fff;
+  color: aliceblue;
+  font-family: poppins;
+  font-size: 22px;
+  margin: 8px;
+  border-radius: 20px;
+  width: 55%;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
 }
 
-.welcome p{
-    font-family: poppins;
-    align-items: center;
-    justify-content: center;
-   
-    /* padding: -10px 20px; */
+.welcome p {
+  font-family: poppins;
+  align-items: center;
+  justify-content: center;
+
+  /* padding: -10px 20px; */
   display: flex;
   margin-top: 10px;
-  }
-  .nameAndAnimation{
-    line-height: 23px;
+}
+.nameAndAnimation {
+  line-height: 23px;
 }
 
-.nameAndAnimation h2{
-    font-size: 40px;
+.nameAndAnimation h2 {
+  font-size: 40px;
 }
-.aboutMeText{
-    margin-top: 30px;
+.aboutMeText {
+  margin-top: 30px;
 }
-.aboutMeText p{
-    font-size: 20px;
-    /* margin-top: 20px; */
-    font-family: poppins;
-   line-height: 32px;
- }
- .connectDiv{
+.aboutMeText p {
+  font-size: 20px;
+  /* margin-top: 20px; */
+  font-family: poppins;
+  line-height: 32px;
+}
+.connectDiv {
   display: flex;
   gap: 8px;
   align-items: center;
   /* border: 2px solid #fff;
   width: 209px; */
- }
- .connectDivLink{
+}
+.connectDivLink {
   border: 2px solid #fff;
   width: 209px;
   height: 46px;
@@ -97,59 +96,93 @@ body{
   border-radius: 31px;
   gap: 8px;
   /* background-color: #000; */
-  
-  color: #fff;
-  transition: all ease-in-out .5s;
 
- 
-  transition: all ease-in-out .5s;
-  
+  color: #fff;
+  transition: all ease-in-out 0.5s;
+
+  transition: all ease-in-out 0.5s;
 }
 
-
-
- .connectDivLink :hover{
+.connectDivLink :hover {
   transition: all ease-in-out.5s;
   /* margin-left: 10px; */
   /* width: 289px; */
-  text-shadow:10px 10px 20px rgb(255,255,255);
-     box-shadow:10px 10px 8px rgb(255,255,255);
-     background-color: red;
-     color: #000 !important;
-     background-position: left bottom;
- 
+  text-shadow: 10px 10px 20px rgb(255, 255, 255);
+  box-shadow: 10px 10px 8px rgb(255, 255, 255);
+  background-color: red;
+  color: #000 !important;
+  background-position: left bottom;
 }
- .connectDiv a{
+.connectDiv a {
   /* color: #fff; */
   display: flex;
   align-items: center;
   font-weight: bolder;
   gap: 18px;
-  transition: all ease-in-out .5s;
+  transition: all ease-in-out 0.5s;
   background: linear-gradient(to right, #707070 50%, #121212 50%);
-    background-position: right bottom;
-    background-size: 200% 100%;
+  background-position: right bottom;
+  background-size: 200% 100%;
+}
 
- }
-
- .connectDiv a:hover{
-
+.connectDiv a:hover {
   transition: all ease-in-out.5s;
   margin-left: 10px;
   width: 210px;
-  text-shadow:0px 0px 8px rgb(255,255,255);
-     box-shadow:0px 0px 8px rgb(255,255,255);
-     background-color: #fff;
-     color: #000 !important;
-     background-position: left bottom;
- }
-.img{
-   border-radius: 300px;
-   animation: bounce 1s;
-  
-   
+  text-shadow: 0px 0px 8px rgb(255, 255, 255);
+  box-shadow: 0px 0px 8px rgb(255, 255, 255);
+  background-color: #fff;
+  color: #000 !important;
+  background-position: left bottom;
 }
-
+.imageDiv {
+  position: relative;
+  width: 25%;
+  animation: bounce 1.5s;
+  transform: translateZ(0px);
+  animation-iteration-count: infinite;
+  margin: 50px;
+  height: 340px;
+  margin-top: -39px;
+ 
+}
+.img {
+  width: 380px;
+  height: 380px;
+  border-radius: 300px;
+  position: absolute;
+}
+@keyframes bounce {
+  0% {
+    top: 0px;
+    -webkit-animation-timing-function: ease-in;
+  }
+  40% {
+  }
+  50% {
+    top: 140px;
+    height: 140px;
+    -webkit-animation-timing-function: ease-out;
+  }
+  55% {
+    top: 160px;
+    height: 120px;
+    -webkit-animation-timing-function: ease-in;
+  }
+  65% {
+    top: 120px;
+    height: 140px;
+    -webkit-animation-timing-function: ease-out;
+  }
+  95% {
+    top: 0;
+    -webkit-animation-timing-function: ease-in;
+  }
+  100% {
+    top: 0;
+    -webkit-animation-timing-function: ease-in;
+  }
+}
 
 /* MEDIA QUERY */
 
@@ -192,92 +225,133 @@ body{
     justify-content: center;
     display: flex;
   }
-  .welcome p{
+  .welcome p {
     font-family: poppins;
     align-items: center;
     justify-content: center;
     padding: 3px 10px;
     margin-top: 18px;
   }
-.nameAndAnimation{
+  .nameAndAnimation {
     line-height: 13px;
-}
-.nameAndAnimation h2{
-  width: 300px;
-  line-height: 1;
+  }
+  .nameAndAnimation h2 {
+    width: 300px;
+    line-height: 1;
     font-size: 30px;
     font-family: poppins;
-}
- .aboutMeText p{
+  }
+  .aboutMeText p {
     margin-top: 20px;
     font-family: poppins;
- }
- .connectDivLink{
-  border: 2px solid #fff;
-  width: 160px;
-  height: 39px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  border-radius: 31px;
-  gap: 10px;
-  background-color: #000;
+  }
+  .connectDivLink {
+    border: 2px solid #fff;
+    width: 160px;
+    height: 39px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 31px;
+    gap: 10px;
+    background-color: #000;
 
-  
-  
-  color: #fff;
-  transition: all ease-in-out .5s;
-  background: linear-gradient(to right, white 50%, #121212 50%);
+    color: #fff;
+    transition: all ease-in-out 0.5s;
+    background: linear-gradient(to right, white 50%, #121212 50%);
     background-position: right bottom;
     background-size: 200% 100%;
+  }
+
+  .connectDivLink :hover {
+    transition: all ease-in-out.5s;
+    /* margin-left: 10px; */
+    /* width: 289px; */
+    text-shadow: 10px 10px 20px rgb(255, 255, 255);
+    box-shadow: 10px 10px 8px rgb(255, 255, 255);
+    background-color: #fff;
+    color: #000 !important;
+    background-position: left bottom;
+  }
+  .connectDiv a {
+    /*color: #fff;
+  */
+    display: flex;
+    font-size: 16px !important;
+    align-items: center;
+    gap: 18px;
+    transition: all ease-in-out 0.5s;
+    background: linear-gradient(to right, white 50%, #121212 50%);
+    background-position: right bottom;
+    background-size: 200% 100%;
+  }
+
+  .connectDiv a:hover {
+    transition: all ease-in-out.5s;
+    margin-left: 10px;
+    width: 170px;
+    text-shadow: 0px 0px 8px rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px rgb(255, 255, 255);
+    background-color: #fff;
+    color: #000 !important;
+    background-position: left bottom;
+  }
+  .imageDiv .img {
+    width: 340px !important;
+    /* height: 350px; */
+    margin-top: 20px;
+    margin-left: -38px;
+    border-radius: 140px;
+    -webkit-border-radius: 140px;
+    -moz-border-radius: 140px;
+    -ms-border-radius: 140px;
+    -o-border-radius: 140px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+  }
+  .imageDiv {
+    position: relative;
+    width: 25%;
+    animation: bounce 1.5s;
+    /* transform: translateZ(0px); */
+    animation-iteration-count: 2;
+    /* margin: 50px; */
+    height: 340px;
+    margin-top: 0;
+   
+  }
+  @keyframes bounce {
+    0% {
+      top: 0px;
+      -webkit-animation-timing-function: ease-in;
+    }
+    40% {
+    }
+    50% {
+      top: 140px;
+      height: 140px;
+      -webkit-animation-timing-function: ease-out;
+    }
+    55% {
+      top: 160px;
+      height: 120px;
+      -webkit-animation-timing-function: ease-in;
+    }
+    65% {
+      top: 120px;
+      height: 140px;
+      -webkit-animation-timing-function: ease-out;
+    }
+    95% {
+      top: 0;
+      -webkit-animation-timing-function: ease-in;
+    }
+    100% {
+      top: 0;
+      -webkit-animation-timing-function: ease-in;
+    }
+  }
+
+  
 }
-
-
-
- .connectDivLink :hover{
-  transition: all ease-in-out.5s;
-  /* margin-left: 10px; */
-  /* width: 289px; */
-  text-shadow:10px 10px 20px rgb(255,255,255);
-     box-shadow:10px 10px 8px rgb(255,255,255);
-     background-color: #fff;
-  color: #000 !important;
-  background-position: left bottom;
- 
-}
- .connectDiv a{
-  /*color: #fff;
-  */display: flex;
-  font-size: 16px !important;
-  align-items: center;
-  gap: 18px;
-  transition: all ease-in-out .5s;
-  background: linear-gradient(to right, white 50%, #121212 50%);
-  background-position: right bottom;
-  background-size: 200% 100%;
-}
-
- .connectDiv a:hover{
-
-  transition: all ease-in-out.5s;
-  margin-left: 10px;
-  width: 170px;
-  text-shadow:0px 0px 8px rgb(255,255,255);
-     box-shadow:0px 0px 8px rgb(255,255,255);
-     background-color: #fff;
-  color: #000 !important;
-  background-position: left bottom;
- }
- .imageDiv img{
-  width: 340px !important;
-  height: 350px;
-  margin-top: 20px;
-  margin-left: 8px;
-  border-radius: 140px;
-  -webkit-border-radius: 140px;
-  -moz-border-radius: 140px;
-  -ms-border-radius: 140px;
-  -o-border-radius: 140px;
-  display: flex;
-  justify-content: center;
-}}

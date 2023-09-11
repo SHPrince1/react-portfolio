@@ -68,8 +68,11 @@ style={{
           </div>
 
           <div className={style.imageDiv}>
-            <img src={MyImage} alt='My own image' width={450} height={450} className={style.img}/>
+            <img src={MyImage} alt='My own image' width={380} height={380} className={style.img}/>
           </div>
+
+
+
         </div>
       </div>
       </Plx>
