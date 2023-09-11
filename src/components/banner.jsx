@@ -1,5 +1,10 @@
 import React from "react";
 import style from "../styles/banner.module.css";
+
+
+// https://www.npmjs.com/package/react-plx
+import Plx from "react-plx";
+
 import TypedAnimation from "./type";
 import { BsFillArrowRightSquareFill}  from 'react-icons/bs'
 import { NavLink } from "react-router-dom";
@@ -7,9 +12,28 @@ import MyImage from '../assets/img4.jpg'
 
 
 const Banner = () => {
+  const parallaxData = [
+    {
+      start: 0,
+      end: 500,
+     
+      properties: [
+        {duration:1000,
+          startValue: 1,
+          transition:'easeOutCubic',
+          endValue: 2,
+          property: "scale",
+        },
+      ],
+    },
+  ];
+
+
   return (
     <>
-      <div className={style.parentDiv}>
+
+<Plx className="MyAwesomeParallax" parallaxData={parallaxData}>
+<div className={style.parentDiv}>
         <div className={style.sectionOne}>
           <div className={style.textPart}>
             <div className={style.welcome}>
@@ -44,6 +68,38 @@ const Banner = () => {
           </div>
         </div>
       </div>
+      </Plx>
+
+      <div>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        <h1>HELLO WORLD</h1>
+        
+      </div>
+      
     </>
   );
 };

@@ -11,12 +11,13 @@ body{
   /* background-image: "url(/image.png)", */
   background-image: url(../assets/pbg1.jpg);
   background-size: cover;
+  background-color: #000;
   /* opacity: 0.5; */
   width: fit-content;
   cursor: context-menu;
 
   height: 100vh;
-  position: absolute;
+  position: relative;
   margin: 64px 2px;
   background-repeat: no-repeat;
   color: #fff;
@@ -138,10 +139,13 @@ body{
      background-position: left bottom;
  }
 .img{
-  /*width: 100%;*/
-  border-radius: 300px;
- 
+   border-radius: 300px;
+   animation: bounce 1s;
+  
+   
 }
+
+
 /* MEDIA QUERY */
 
 @media only screen and (max-width: 1200px) {
@@ -157,6 +161,7 @@ body{
     padding: 2px;
     margin: 34px 0px;
     height: auto;
+    position: relative;
   }
 
   .sectionOne {
