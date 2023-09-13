@@ -1,0 +1,91 @@
+.parentDiv{
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 85vh;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #121212;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 65px;
+    -webkit-border-radius: 65px;
+    -moz-border-radius: 65px;
+    -ms-border-radius: 65px;
+    -o-border-radius: 65px;
+}
+.skillsText p{
+    width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: poppins;
+    font-size: 18px;
+
+}
+.skilsSet{
+   
+    /* border:2px solid red; */
+    width: 1000px;
+   
+}
+.setSkill{
+    width: fit-content;
+}
+
+
+/* Media QUERY */
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+
+
+    .parentDiv{
+        border: 1px solid #fff;
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background-color: #000;
+        color: #fff;
+        border-radius: 65px;
+        -webkit-border-radius: 65px;
+        -moz-border-radius: 65px;
+        -ms-border-radius: 65px;
+        -o-border-radius: 65px;
+    }
+    .skillsText p{
+        width: 300px;
+    display: flex;
+    align-items: inherit;
+    justify-content: center;
+    text-align: left;
+    font-family: poppins;
+    font-size: 14px;
+    
+    }
+    .skilsSet{
+        display: flex;
+        gap: 40px;
+        overflow-x: auto;
+        width: 300px;
+        color: #fff;
+    
+    }
+
+
+    
+        
+}
