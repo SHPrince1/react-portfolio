@@ -1,4 +1,5 @@
-import React from "react";
+import React, { Component } from "react";
+import Plx from "react-plx";
 
 
 import { styled } from "styled-components";
@@ -6,11 +7,28 @@ import style from "../styles/skills.module.css";
 import SkillsSlider from "./skillsslider";
 
 const Skills = () => {
-  
+  const parallaxData = [
+    {
+      start: 700,
+      duration: 3000,
+      properties: [
+        {
+          startValue: 100,
+        endValue: 3,
+        property: "translateY",
+        },
+      ],
+    },
+  ];
 
   return (
+   
+
+
     <>
-      <div className={style.parentDiv}>
+
+<Plx className="MyAwesomeParallax" parallaxData={parallaxData}>
+<div className={style.parentDiv}>
         <div className={style.skillH1}>
           <h1>SKILLS</h1>
         </div>
@@ -35,6 +53,8 @@ const Skills = () => {
 
        
       </div>
+      </Plx>
+    
 
       
     </>

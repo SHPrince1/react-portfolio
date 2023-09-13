@@ -30,6 +30,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  line-height: 3;
   /* margin-top: -50px; */
   /* width: 100px; */
   /* margin-left: -52px; */
@@ -39,6 +40,7 @@
 .skillRow img {
   width: 120px;
   height: 120px;
+  margin-top: 50px;
   border-radius:60px ;
   -webkit-border-radius:60px ;
   -moz-border-radius:60px ;
