@@ -11,10 +11,7 @@
     align-items: center;
     color: #fff;
     border-radius: 75px;
-    -webkit-border-radius: 75px;
-    -moz-border-radius: 75px;
-    -ms-border-radius: 75px;
-    -o-border-radius: 75px;
+   
 }
 .skillsText p{
     width: 750px;
