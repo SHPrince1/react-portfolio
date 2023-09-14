@@ -9,13 +9,13 @@ import SkillsSlider from "./skillsslider";
 const Skills = () => {
   const parallaxData = [
     {
-      start: 700,
-      duration: 3000,
+      start: 200,
+      duration: 100,
       properties: [
         {
-          startValue: 100,
-        endValue: 3,
-        property: "translateY",
+          startValue: 1.5,
+        endValue: 1,
+        property: "scale",
         },
       ],
     },
@@ -41,10 +41,7 @@ const Skills = () => {
         </div>
 
         <div className={style.skilsSet}>
-         {/* <h1>HELLO</h1>
-         <h1>HELLO</h1>
-         <h1>HELLO</h1>
-         <h1>HELLO</h1> */}
+      
          <SkillsSlider />
 
          
