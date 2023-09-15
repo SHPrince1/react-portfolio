@@ -1,0 +1,15 @@
+
+.pImage{
+    width: 410px;
+    height: 300px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.cardParentDiv{
+    /* display: flex; */
+
+}
