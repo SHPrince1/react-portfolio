@@ -8,7 +8,11 @@
 .projectsCardDiv{
     display: flex;
     gap: 20px;
+    cursor: pointer;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+    line-height: 0;
+    row-gap: 0;
+    /* grid-row-gap: 0 */
 }
