@@ -28,7 +28,8 @@ h1,h2, h3, h4, h5, h6, p{
       margin: -300px 0px;
       visibility: hidden;
       /*background: linear-gradient(to bottom, red 50%, white 50%);
-      */background-position:bottom;
+      */
+      background-position:right bottom;
       background-size: 200% 100%;
       border-radius: 20px;
       width: 100%;
@@ -62,11 +63,8 @@ h1,h2, h3, h4, h5, h6, p{
     background-size: 200% 100%;
     width: 140px;
     height: 35px;
+    transition: ease-in-out 0.4s;
     transform: all linear 300ms ;
-    -webkit-transform: all linear 300ms ;
-    -moz-transform: all linear 300ms ;
-    -ms-transform: all linear 300ms ;
-    -o-transform: all linear 300ms ;
 }
 .btnAchn{
   background-color: aqua !important;
