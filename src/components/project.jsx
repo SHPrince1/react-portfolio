@@ -16,7 +16,7 @@ const Project = () => {
      description: "Business Start-up",
       details:'Design and Development',
       image: bwimage,
-      url: 'www.fb.com',
+      url: "https://www.facebook.com/",
     },
     {
       title: "Bankers Ware house",
