@@ -1,9 +1,23 @@
 .cardDiv{
-    width: 100%;
+    width: 87%;
+    margin: 0 auto;
     display: flex;
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
+    
+   
+}
+.cardText{
+    display: flex;
+    width: 50%;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin: 100px auto; */
 }
 .projectsCardDiv{
     display: flex;
@@ -16,3 +30,25 @@
     row-gap: 0;
     /* grid-row-gap: 0 */
 }
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    /*Tablets [601px -> 1200px]*/
+  }
+  @media only screen and (max-width: 600px) {
+    /*Big smartphones [426px -> 600px]*/
+  }
+  @media only screen and (max-width: 425px) {
+    /*Small smartphones [325px -> 425px] */
+  
+  
+
+
+    .cardText{
+        width: 350px;
+        margin-top: 50px;
+        /* text-align: left; */
+    }
+  }

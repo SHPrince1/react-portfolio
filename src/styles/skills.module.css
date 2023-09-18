@@ -50,7 +50,8 @@
         border: 1px solid #fff;
         display: flex;
         flex-direction: column;
-        width: 99%;
+        width: 90%;
+        height: 370px;
         margin: 0 auto;
         align-items: center;
         justify-content: center;

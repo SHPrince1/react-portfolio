@@ -11,5 +11,94 @@
 
 .cardParentDiv{
     /* display: flex; */
+    position: relative;
 
 }
+.descriptionDiv{
+      /*background-color: aqua;
+      */width: 100%;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: -300px 0px;
+      visibility: hidden;
+      /* background: linear-gradient(to bottom, red 50%, white 50%); */
+      background-position:bottom;
+      background-size: 200% 100%;
+      border-radius: 20px;
+      width: 100%;
+      height: 93%;
+      transform: translate(0%, -50%);
+      transition: 0.5s ease-in-out;
+      -webkit-transform: translate(0%, -50%);
+      -moz-transform: translate(0%, -50%);
+      -ms-transform: translate(0%, -50%);
+      -o-transform: translate(0%, -50%);
+      -webkit-transition: 0.5s ease-in-out;
+      -moz-transition: 0.5s ease-in-out;
+      -ms-transition: 0.5s ease-in-out;
+      -o-transition: 0.5s ease-in-out;
+}
+.descriptionDiv h4{
+   
+   font-size:30px;
+  
+}
+.descriptionDiv a{
+    /* background-color: #000; */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+
+     background: linear-gradient(to right, white 50%, #121212 50%);
+    background-position: right bottom;
+    background-size: 200% 100%;
+    
+    width: 140px;
+    height: 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.descriptionDiv a:hover{
+  background-color: #fff;
+  color: #fff !important;
+  transition: all linear 0.4s ;
+  -webkit-transition: all linear 0.4s ;
+  -moz-transition: all linear 0.4s ;
+  -ms-transition: all linear 0.4s ;
+  -o-transition: all linear 0.4s ;
+}
+
+.cardParentDiv:hover .descriptionDiv{
+    visibility: visible;
+    /*background-position: top;
+    *//*transition: all linear 300ms;
+    */background-color: hsla(340, 5%, 12%, 0.8);
+    color: #fff;
+    transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    -moz-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    -o-transform: translate(0%, 0%);
+}
+
+
+@media only screen and (max-width: 1200px) {
+    /*Tablets [601px -> 1200px]*/
+  }
+  @media only screen and (max-width: 600px) {
+    /*Big smartphones [426px -> 600px]*/
+  }
+  @media only screen and (max-width: 425px) {
+    /*Small smartphones [325px -> 425px] */
+  
+    .pImage{
+        width: 350px;}
+  }
