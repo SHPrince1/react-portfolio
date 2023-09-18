@@ -1,4 +1,7 @@
 
+h1,h2, h3, h4, h5, h6, p{
+  font-family: poppins;
+}
 .pImage{
     width: 410px;
     height: 300px;
@@ -24,22 +27,18 @@
       align-items: center;
       margin: -300px 0px;
       visibility: hidden;
-      /* background: linear-gradient(to bottom, red 50%, white 50%); */
-      background-position:bottom;
+      /*background: linear-gradient(to bottom, red 50%, white 50%);
+      */background-position:bottom;
       background-size: 200% 100%;
       border-radius: 20px;
       width: 100%;
       height: 93%;
-      transform: translate(0%, -50%);
+      transform: translate(0%, 50%);
       transition: 0.5s ease-in-out;
-      -webkit-transform: translate(0%, -50%);
-      -moz-transform: translate(0%, -50%);
-      -ms-transform: translate(0%, -50%);
-      -o-transform: translate(0%, -50%);
-      -webkit-transition: 0.5s ease-in-out;
-      -moz-transition: 0.5s ease-in-out;
-      -ms-transition: 0.5s ease-in-out;
-      -o-transition: 0.5s ease-in-out;
+      -webkit-transform: translate(0%, 50%);
+      -moz-transform: translate(0%, 50%);
+      -ms-transform: translate(0%, 50%);
+      -o-transform: translate(0%, 50%);
 }
 .descriptionDiv h4{
    
@@ -47,48 +46,61 @@
   
 }
 .descriptionDiv a{
-    /* background-color: #000; */
+    background-color: #000 !important;
     color: #fff;
     display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: poppins;
+    border: 2px solid #fff;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     border-radius: 20px;
-
-     background: linear-gradient(to right, white 50%, #121212 50%);
+    background: linear-gradient(to right, white 50%, #121212 50%);
     background-position: right bottom;
     background-size: 200% 100%;
-    
     width: 140px;
     height: 35px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    transform: all linear 300ms ;
+    -webkit-transform: all linear 300ms ;
+    -moz-transform: all linear 300ms ;
+    -ms-transform: all linear 300ms ;
+    -o-transform: all linear 300ms ;
+}
+.btnAchn{
+  background-color: aqua !important;
+}
+.linkDiv{
+  /* background-color: red; */
 }
 .descriptionDiv a:hover{
   background-color: #fff;
-  color: #fff !important;
-  transition: all linear 0.4s ;
-  -webkit-transition: all linear 0.4s ;
-  -moz-transition: all linear 0.4s ;
-  -ms-transition: all linear 0.4s ;
-  -o-transition: all linear 0.4s ;
+  border: 5px solid #000;
+  color: #000 !important;
+  background-position: left bottom;
+  border: 2px solid #000;
+  transition: linear 0.4s ;
+  -webkit-transition: linear 0.4s ;
+  -moz-transition: linear 0.4s ;
+  -ms-transition: linear 0.4s ;
+  -o-transition: linear 0.4s ;
 }
 
 .cardParentDiv:hover .descriptionDiv{
-    visibility: visible;
-    /*background-position: top;
-    *//*transition: all linear 300ms;
-    */background-color: hsla(340, 5%, 12%, 0.8);
-    color: #fff;
-    transform: translate(0%, 0%);
-    -webkit-transform: translate(0%, 0%);
-    -moz-transform: translate(0%, 0%);
-    -ms-transform: translate(0%, 0%);
-    -o-transform: translate(0%, 0%);
+  visibility: visible;
+  /*background-position: top;
+  *//*transition: all linear 300ms;
+  */background-color: hsla(340, 5%, 12%, 0.8);
+  color: #fff;
+  transform: translate(0%, 0%);
+  -webkit-transform: translate(0%, 0%);
+  -moz-transform: translate(0%, 0%);
+  -ms-transform: translate(0%, 0%);
+  -o-transform: translate(0%, 0%);
 }
-
+  
+/* MEDIA QUERRY */
 
 @media only screen and (max-width: 1200px) {
     /*Tablets [601px -> 1200px]*/

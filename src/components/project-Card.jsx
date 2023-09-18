@@ -10,10 +10,11 @@ const ProjectCard = (props) => {
       <img src={props.image} alt="Bw image" className={style.pImage} />
       <div className={style.descriptionDiv}>
         <h4>{props.description}</h4>
-       <p>{props.details}</p><br></br>
-       
-       <a href={props.url}>Visit Link</a>
-        
+        <p>{props.details}</p>
+        <br></br>
+        <div className={style.linkDiv}>
+          <a className={style.btnAchn} href={props.url}>Visit Link</a>
+        </div>
       </div>
     </div>
   );
