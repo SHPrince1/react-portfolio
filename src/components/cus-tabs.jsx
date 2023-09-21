@@ -7,6 +7,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import styled from "styled-components";
 import Project from "./project";
 import ProjectCard from "./project-Card";
 import style from "../styles/project.module.css";
@@ -92,6 +93,7 @@ function a11yProps(index) {
   return {
     id: `full-width-tab-${index}`,
     "aria-controls": `full-width-tabpanel-${index}`,
+    
   };
 }
 
@@ -107,6 +109,23 @@ const CusTabs = () => {
     setValue(index);
   };
 
+
+  const TypedContainer = styled.div`
+  overflow:hidden;
+
+    @media (max-width: 425px) {
+      overflow:hidden;
+    }
+  `;
+
+  const TypedContainer2 = styled.div`
+  background:red
+
+    @media (max-width: 425px) {
+      overflow:hidden;
+    }
+  `;
+
   return (
     <div className={styles.parentDiv}>
       <Box sx={{}} className={styles.boxDiv}>
@@ -117,11 +136,12 @@ const CusTabs = () => {
             indicatorColor="red"
             // textColor="green"
             variant="fullWidth"
-            backGroundColor='purple'
+           
             aria-label="full width tabs example"
             className={styles.tabBox}
+            // style={{background:'blue'}}
           >
-            <Tab label="Projects" {...a11yProps(0)} />
+            <Tab label="Projects" {...a11yProps(0)}  />
             <Tab label="Item Two" {...a11yProps(1)} />
             <Tab label="Item Three" {...a11yProps(2)} />
           </Tabs>
@@ -130,42 +150,47 @@ const CusTabs = () => {
           axis={theme.direction === "rtl" ? "x-reverse" : "x"}
           index={value}
           onChangeIndex={handleChangeIndex}
-          overflow-y="hidden"
+        
           height={400}
           className={styles.swip}
           style={{overflow:'hidden'}}
+
         >
-          <TabPanel value={value} index={0} dir={theme.direction} overflow='hidden'>
+          <TypedContainer>
+          <TabPanel value={value} index={0} dir={theme.direction} className={styles.test}>
           
 
-            <div className={style2.cardDiv} id="project">
-              <div className={style2.cardText}>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
-                culpa sapiente ullam eum eos dolorem excepturi in? Facere hic
-                sint delectus veritatis, cumque libero iste illum fugiat
-                laudantium aut ea? Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Pariatur accusantium et rerum saepe
-                consectetur tempore possimus quasi aut dolores eligendi.
-              </div>
-
-              <div className={style2.projectsCardDiv}>
-                {data.map((data, index) => {
-                  return (
-                    <ProjectCard
-                      key={index}
-                      //  title={data.title}
-                      image={data.image}
-                      description={data.description}
-                      details={data.details}
-                      url={data.url}
-                    />
-                  );
-                })}
-              </div>
+          <div className={style2.cardDiv} id="project">
+            <div className={style2.cardText}>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
+              culpa sapiente ullam eum eos dolorem excepturi in? Facere hic
+              sint delectus veritatis, cumque libero iste illum fugiat
+              laudantium aut ea? Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Pariatur accusantium et rerum saepe
+              consectetur tempore possimus quasi aut dolores eligendi.
             </div>
 
-           
-          </TabPanel>
+            <div className={style2.projectsCardDiv}>
+              {data.map((data, index) => {
+                return (
+                  <ProjectCard
+                    key={index}
+                    //  title={data.title}
+                    image={data.image}
+                    description={data.description}
+                    details={data.details}
+                    url={data.url}
+                  />
+                );
+              })}
+            </div>
+          </div>
+
+         
+        </TabPanel>
+            
+          </TypedContainer>
+          
           <TabPanel value={value} index={1} dir={theme.direction}>
             Item Two
           </TabPanel>

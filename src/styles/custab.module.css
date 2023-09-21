@@ -12,6 +12,9 @@
     border-radius: 20px;
 } */
 
+
+
+
 .boxDiv{
     background-color: black !important;
     border-radius: 50px;
@@ -46,11 +49,15 @@
 .swip{
     overflow: hidden;
 }
+.tabBar{
+    background-color: red;
+}
 .tabBox{
-    background-color: #707070 !important;
-    
-    /* text-decoration-color: aqua; */
-    text-decoration: solid;
+    background-color: #fff !important;
+    /*text-decoration-color: aqua;
+    */text-decoration: solid;
+    text-decoration-color:yellow ;
+    background: red;
     width: 700px;
     margin: 20px auto !important;
     border-radius: 25px;
@@ -58,7 +65,7 @@
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
-    -moz-text-decoration-color: aqua;
+    -moz-text-decoration-color:yellow ;
 }
 
 
@@ -72,6 +79,17 @@
     /* display: flex; */
     margin-top: 82px auto!important;
 }
+
+.MuiButtonBase-root{
+    background-color: #707070;
+    background: red !important;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
 
 
 @media only screen and (max-width: 1200px) {
@@ -133,5 +151,9 @@
         -moz-border-radius: 25px;
         -ms-border-radius: 25px;
         -o-border-radius: 25px;
+    }
+    .test{
+        overflow: hidden;
+        /* border: 1px solid red; */
     }
   }
