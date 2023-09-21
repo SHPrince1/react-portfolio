@@ -1,0 +1,137 @@
+
+
+
+
+
+
+/* .css-19kzrtu {
+    padding: 24px;
+    width: 90%;
+    background-color: red;
+    margin: 0 auto;
+    border-radius: 20px;
+} */
+
+.boxDiv{
+    background-color: black !important;
+    border-radius: 50px;
+    width: 95%;
+    margin: 50px auto;
+    margin-top: 50px !important;
+    /*position: absolute;
+    */overflow-y: hidden!important;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.appBarStyle{
+    height: 50px;
+    position: absolute;
+    display: flex;
+    background-color: blue !important;
+    border-radius: 30px;
+    width: 700px !important;
+    margin: 30px auto !important;
+    /* position: relative; */
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.swip{
+    overflow: hidden;
+}
+.tabBox{
+    background-color: #707070 !important;
+    
+    /* text-decoration-color: aqua; */
+    text-decoration: solid;
+    width: 700px;
+    margin: 20px auto !important;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    -moz-text-decoration-color: aqua;
+}
+
+
+.css-1ujnqem-MuiTabs-root {
+    overflow: hidden;
+    min-height: 48px;
+    -webkit-overflow-scrolling: touch;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    /* display: flex; */
+    margin-top: 82px auto!important;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    /*Tablets [601px -> 1200px]*/
+  }
+  @media only screen and (max-width: 600px) {
+    /*Big smartphones [426px -> 600px]*/
+  }
+  @media only screen and (max-width: 425px) {
+    /*Small smartphones [325px -> 425px] */
+
+    .parentDiv{
+        /* background-color: #000; */
+        width: 100%;
+        height: 55%;
+        margin: 50px auto;
+        border-radius: 50px;
+        overflow: hidden !important;
+        position: relative;
+       
+    }
+
+
+    .boxDiv{
+        background-color:#112112 !important;
+        width: 100% !important;
+        border-radius: 30px;
+        margin-top: 0px !important;
+        /* position: absolute; */
+       margin: 0 auto !important;
+    }
+    .appBarStyle{
+        height: 50px;
+        position: absolute;
+        font-size: 10px;
+        display: flex;
+        background-color: blue !important;
+        border-radius: 30px;
+        width: 100% !important;
+        margin: 30px auto !important;
+        /* position: relative; */
+        /* margin-top: 10px; */
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+  
+    .tabBox{
+        background-color: #707070 !important;
+        width:  100% !important;
+        font-size: 10px;
+        margin: 20px auto !important;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+  }

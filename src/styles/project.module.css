@@ -1,19 +1,20 @@
 .cardDiv{
-    width: 87%;
+    width: 95%;
     margin: 0 auto;
     display: flex;
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
+    /* position: fixed; */
     
    
 }
 .cardText{
     display: flex;
     width: 50%;
-    font-size: 18px;
+    font-size: 15px;
     color: #fff;
-    margin-top: 100px;
+    margin-top: -14px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -24,7 +25,7 @@
     gap: 20px;
     cursor: pointer;
     flex-wrap: wrap;
-    width: 100%;
+    /* width: 98%; */
     justify-content: center;
     line-height: 0;
     row-gap: 0;
@@ -48,7 +49,7 @@
 
     .cardText{
         width: 350px;
-        margin-top: 50px;
+        margin-top: 0;
         /* text-align: left; */
     }
   }

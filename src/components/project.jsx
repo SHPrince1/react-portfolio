@@ -8,6 +8,7 @@ import products from "../assets/products.png";
 import calcu from "../assets/calcu.png";
 import ebm from "../assets/ebm.png";
 import country from "../assets/country.png";
+import CusTabs from './cus-tabs';
 
 const Project = () => {
   const data = [
@@ -52,7 +53,7 @@ const Project = () => {
   return (
     <div>
       {/* <h1>PROJECTS</h1> */}
-       
+       <CusTabs />
       <div className={style.cardDiv} id="project">
 
       <div className={style.cardText}>
