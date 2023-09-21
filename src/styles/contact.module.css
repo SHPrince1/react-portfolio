@@ -1,13 +1,25 @@
+h1{
+    font-size: 80px;
+    font-family: poppins;
+    
+}
+
+
 .parentDiv{
     border: 1px solid #fff;
     background-color: #f5f5ff;
     width: 90%;
     height: 100vh;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     justify-content: space-around;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
 
 
@@ -18,47 +30,60 @@
 
 .textSection{
     /* border: 1px solid red; */
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
 
 }
 .names, .address{
     display: flex;
     gap: 20px;
-    margin-top: 14px;
+    /* margin-top: 14px; */
+    margin: 14px auto;
 }
 
 .names input, .address input{
     /*display: flex;
-    */gap: 20px;
-    width: 200px;
-    height: 35px;
+    */border: 2px solid blue;
+    box-shadow: 10px #707070;
+    padding: 3px 8px ;
+    font-family: poppins;
+    gap: 16px;
+    width: 250px;
+    height: 40px;
     border-radius: 14px;
-    -webkit-border-radius: 14px;
-    -moz-border-radius: 14px;
-    -ms-border-radius: 14px;
-    -o-border-radius: 14px;
+    
 }
 
 
 .textSpace {
-  width: 420px;
-  height: 180px;
-  margin-top: 10px;
-  text-align: justify;
-  align-items: flex-start;
-   
+    display: flex;
+    font-family: poppins;
+    /* margin: 30px auto; */
+    padding: 25px;
+    border: 2px solid blue;
+    font-size: 20px;
+    width: 520px;
+    height: 180px;
+    outline-color: aqua;
+    border-radius: 25px;
+    box-shadow: none;
+    resize: none;
+    
 }
-.textSpace input{
-    vertical-align: top;
-    margin-top: -10px;
+.textSpace :focus{
+    box-shadow: none;
+    border-radius: 1px soliid #000;
+    -webkit-border-radius: 1px soliid #000;
+    -moz-border-radius: 1px soliid #000;
+    -ms-border-radius: 1px soliid #000;
+    -o-border-radius: 1px soliid #000;
 }
 .textSection placeholder{
     margin-top: -10px;
 }
 .send{
-    margin-top: 10px;
-    width: 114px;
+    margin-top: 20px;
+    width: 160px;
     display: flex;
     align-items: center;
     height: 48px;
@@ -68,4 +93,81 @@
     text-align: center;
     justify-content: center;
     cursor: pointer;
+}
+
+
+
+/* MEDIA QUERRY */
+
+@media only screen and (max-width: 1200px) {
+    /*Tablets [601px -> 1200px]*/
+  }
+  @media only screen and (max-width: 768px) {
+    /*Big smartphones [426px -> 600px]*/
+    .parentDiv{
+        background-color: red;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    .imageSection img{
+        width: 500px;
+        margin-top: 20px;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    /*Small smartphones [325px -> 425px] */
+
+    h1{
+        font-size: 20px;
+    }
+  
+    .parentDiv{
+        border: 1px solid #fff;
+        background-color: #fff;
+        width: 100%;
+        height: 110%;
+
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: -30px auto;
+        justify-content: space-around;
+        
+}
+.textSection{
+    /* border: 1px solid red; */
+    width: 280px;
+    margin: 0 auto;
+
+}
+.imageSection{
+    margin-top: 20px;
+}
+.imageSection img{
+    width: 300px;
+}
+.names, .address{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* margin-top: 14px; */
+    
+    
+  }
+  .textSpace{
+    width: 216px;
+    height: 106px;
+  }
+  .send{
+    margin-bottom: 20px;
+    width: 140px;}
 }

@@ -8,30 +8,31 @@ const Contact = () => {
     <>
     <div className={style.parentDiv}>
         <div className={style.imageSection}>
-<img src={ContactImage} alt='Con' />
+<img src={ContactImage} alt='Con' className={style.imagCus} />
             
         </div>
         <div className={style.textSection}>
 
-            <h3>GET IN TOUCH</h3>
+            <h1>GET IN TOUCH</h1>
             <form >
             <div className={style.names}>
 
-                <input />
-                <input />
+                <input placeholder='First Name' />
+                <input placeholder='Last Name' />
             </div>
             
 
             <div className={style.address}>
 
                 <input  placeholder='Phone Number'/>
-                <input />
+                <input placeholder='Email Address'/>
             </div>
             <div className={style.textDiv}>
-                <input type='text'  className={style.textSpace}></input >
+                <textarea type='text' placeholder='Type your message' className={style.textSpace} />
             </div>
 
-            <button className={style.send}>SEND</button>
+            <button className={style.send} type='submit'>SEND</button>
+            
             {/* <Button /> */}
             </form>
         </div>
