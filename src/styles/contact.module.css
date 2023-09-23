@@ -14,7 +14,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: -30px auto;
     justify-content: space-around;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;

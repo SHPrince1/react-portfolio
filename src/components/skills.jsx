@@ -29,7 +29,8 @@ const Skills = () => {
 
 <Plx className="MyAwesomeParallax" parallaxData={parallaxData}>
 <div className={style.parentDiv}>
-        <div className={style.skillH1}>
+  <div className={style.content}>
+  <div className={style.skillH1}>
           <h1>SKILLS</h1>
         </div>
         <div className={style.skillsText}>
@@ -46,6 +47,9 @@ const Skills = () => {
 
          
         </div>
+
+  </div>
+       
 
 
        

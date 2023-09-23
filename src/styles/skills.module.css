@@ -1,28 +1,43 @@
+.skillH1 h1{
+    font-size: 67px;
+    font-family: poppins;
+    width: 15%;
+    margin: 0 auto ;
+}
+
 .parentDiv{
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     display: flex;
     flex-direction: column;
     width: 95%;
     height: 90vh;
     margin: -10px auto;
     align-items: center;
-    background-color: #092034;
+    background-color: #005096;
     justify-content: center;
     align-items: center;
     color: #fff;
     border-radius: 75px;
    
 }
+.content{
+    /* border: 1px solid red; */
+    margin: 150px auto auto auto;
+    width: 70%;
+
+}
 .skillsText p{
-    width: 750px;
+    width: 70%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-family: poppins;
     font-size: 18px;
-
 }
+
+
 .skilsSet{
    
     /* border:2px solid red; */
