@@ -1,8 +1,16 @@
+.grandParentDiv{
+  width: 100%;
+  background-color: #21293f;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
 .parentDiv{
     /*border: 1px solid red;
     *//*display: flex;
-    */background-color: #121212;
-    width: 98%;
+    */background-color: #005096;
+    width: 88%;
     margin: 0 auto;
     border-radius:20px ;
     /*padding: 20px;
@@ -19,7 +27,7 @@
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .copy{
@@ -27,12 +35,64 @@
     width: 80%;
     margin: 0px auto;
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 .copy p{
-    margin-top: -80px;
+    /* margin-top: -80px; */
     color: #fff;
 }
+
+.iconDivParent{
+  justify-content: center;
+  align-items: center;
+  margin: -30px  auto auto auto;
+  /* margin-top: -10px; */
+  width: fit-content;
+  /* border: 2px solid red; */
+}
+
+.iconDiv{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.iconDiv a{
+font-size: 10px;
+}
+.iconDiv a:hover{
+background-color: aqua;
+}
+
+
+
+
+.Icons {
+  /* height: 40px;
+  width: 40px; */
+  display: flex;
+  align-items: center;
+  font-size: 45px;
+  background: linear-gradient(45deg, white 0%, #121212 10%);
+  border-radius: 20px;
+  background-size: 200% 100%;
+
+  background-image: linear-gradient(white, white);
+  background-repeat: no-repeat;
+  transition: background-size 0.5s, color 0.5s;
+  background-size: 0 0;
+  background-position: 50% 50%;
+  border-radius: 30px;
+}
+.Icons:hover {
+  color: rgba(34, 164, 116, 1);
+  /* background: linear-gradient(45deg, rgba(34,164,116,1) 0%, rgba(41,47,143,1) 100%); */
+
+  background-size: 100% 100%;
+}
+
+
+
+
 
 
 
@@ -46,6 +106,10 @@
   }
   @media only screen and (max-width: 425px) {
     /*Small smartphones [325px -> 425px] */
+    .grandParentDiv{
+      margin-top: 10px;
+      height: 260px;
+    }
     .parentDiv{
         /* width: 98%; */
         display: flex;
@@ -63,9 +127,22 @@
 
   .box1 img{
     width: 100px;
+    margin: 0 auto;
   }
   .copy{
     width: 250px;
     margin-top: 10px;
+  }
+  .iconDiv{
+    gap: 10px;
+  }
+
+  .Icons {
+    /* height:20px;
+    width: 20px; */
+    font-size:40px;
+  }
+  .copy p{
+    text-align: center;
   }
   }

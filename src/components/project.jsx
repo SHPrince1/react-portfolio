@@ -46,7 +46,7 @@ const Project = () => {
     {
       title: "Bankers Ware house",
       description: "Business Start-up",
-      details:'Design and Development',
+      details:'Design and Development Inplementation',
       image: ebm,
     },
   ];

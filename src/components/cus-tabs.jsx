@@ -26,7 +26,7 @@ import style2 from '../styles/project.module.css'
 const data = [
   {
     title: "Bankers Ware house",
-    description: "Business Start-up",
+    description: "Business Start-up test",
     details: "Design and Development",
     image: bwimage,
     url: "https://www.facebook.com/",

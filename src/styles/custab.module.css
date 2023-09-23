@@ -16,7 +16,7 @@
 
 
 .boxDiv{
-    background-color: black !important;
+    background-color:#21293f !important;
     border-radius: 50px;
     width: 95%;
     margin: 50px auto;
@@ -114,7 +114,7 @@
 
 
     .boxDiv{
-        background-color:#112112 !important;
+        /* background-color:#112112 !important; */
         width: 100% !important;
         border-radius: 30px;
         margin-top: 0px !important;
@@ -154,6 +154,7 @@
     }
     .test{
         overflow: hidden;
+        background-color: #21293f;
         /* border: 1px solid red; */
     }
   }
