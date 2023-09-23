@@ -79,6 +79,9 @@
     /* overflow: hidden; */
     height: 100px;
   }
+  .skillRow{
+    line-height: 1;
+  }
 
 .skillRow h3{
   font-size: 10px;
