@@ -26,40 +26,47 @@ import style2 from '../styles/project.module.css'
 const data = [
   {
     title: "Bankers Ware house",
-    description: "Business Start-up test",
+    description: "Company's website",
     details: "Design and Development",
     image: bwimage,
-    url: "https://www.facebook.com/",
+    url: "https://benevolent-bombolone-c31318.netlify.app/",
   },
   {
     title: "Bankers Ware house",
-    description: "Business Start-up",
+    description: "E-COMMERCE WEBSITE ",
     details: "Design and Development",
     image: store,
+    url:"https://idyllic-lokum-3be9f5.netlify.app/",
   },
   {
     title: "Bankers Ware house",
     description: "Business Start-up",
     details: "Design and Development",
     image: products,
+    url:"https://productsdesign.netlify.app/",
   },
   {
     title: "Bankers Ware house",
     description: "Business Start-up",
     details: "Design and Development",
     image: calcu,
+    url:"https://rgss-coding-calculator.netlify.app/",
   },
   {
     title: "Bankers Ware house",
     description: "Business Start-up",
     details: "Design and Development",
     image: country,
+
+    url:"https://transcendent-otter-8c4077.netlify.app/",
+  
   },
   {
     title: "Bankers Ware house",
     description: "Business Start-up",
     details: "Design and Development",
     image: ebm,
+    url:"https://ebm-web-app.netlify.app/",
   },
 ];
 
