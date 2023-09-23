@@ -38,12 +38,19 @@
 
 @media only screen and (max-width: 1200px){
     /*Tablets [601px -> 1200px]*/
+    .skillH1 h1{
+        font-size: 30px;
+    }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1008px){
 	/*Big smartphones [426px -> 600px]*/
 
     .skillsText p{
         width: 500px;
+    }
+
+    .skillH1 h1{
+        font-size: 30px;
     }
 }
 @media only screen and (max-width: 425px){

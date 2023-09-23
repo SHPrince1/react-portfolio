@@ -5,6 +5,7 @@ import Skills from "../components/skills";
 import Project from "../components/project";
 import CusTabs from "../components/cus-tabs";
 import Contact from "../components/contact";
+import Footer from "../components/footer";
 
 const Home = () => {
   return (
@@ -13,7 +14,8 @@ const Home = () => {
       <Skills />
       <CusTabs />
       <Contact />
-     
+      
+      <Footer/>
     </>
   );
 };

@@ -9,7 +9,7 @@ body {
   /* border: 1px solid red; */
   /* background-color: black; */
   /* background-image: "url(/image.png)", */
-  background-image: url(../assets/pbg1.jpg);
+  /* background-image: url(../assets/pbg1.jpg); */
   background-size: cover;
   background-color: #000;
   /* opacity: 0.5; */
@@ -189,8 +189,24 @@ body {
 @media only screen and (max-width: 1200px) {
   /*Tablets [601px -> 1200px]*/
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
   /*Big smartphones [426px -> 600px]*/
+
+  .textPart {
+    /* border: 1px solid #000; */
+    width: 100%;
+    padding: 21px;
+    display: block;
+    gap: 10px;
+}
+.img{
+  width: 159px;
+  height: 160px;
+  border-radius: 300px;
+  position: absolute;
+  margin-top: 148px;
+}
+
 }
 @media only screen and (max-width: 425px) {
   /*Small smartphones [325px -> 425px]*/

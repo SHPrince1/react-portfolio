@@ -12,6 +12,7 @@ import Project from "../src/pages/project";
 import { Audio } from "react-loader-spinner";
 // ddddd
 import GridLoader from "react-spinners/GridLoader";
+import Footer from "./components/footer";
 
 const override = {
   display: "block",
@@ -47,7 +48,7 @@ function App() {
       }
       
       
-       
+    
       
 
       <div className="loaderDiv">
@@ -63,6 +64,8 @@ function App() {
       />
 
       </div>
+
+    
     </div>
   );
 }

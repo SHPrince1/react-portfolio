@@ -1,5 +1,7 @@
 body{
   background-color: #282c34;
+  background-image: url(assets/pbg1.jpg);
+  /* background-size: cover; */
 }
 
 .App {

@@ -43,7 +43,7 @@ h1{
 
 .names input, .address input{
     /*display: flex;
-    */border: 2px solid blue;
+    */border: 1px solid #3dc8e9;
     box-shadow: 10px #707070;
     padding: 3px 8px ;
     font-family: poppins;
@@ -60,9 +60,9 @@ h1{
     font-family: poppins;
     /* margin: 30px auto; */
     padding: 25px;
-    border: 2px solid blue;
+    border: 1px solid #3dc8e9;
     font-size: 20px;
-    width: 520px;
+    width: 510px;
     height: 180px;
     outline-color: aqua;
     border-radius: 25px;
@@ -102,10 +102,10 @@ h1{
 @media only screen and (max-width: 1200px) {
     /*Tablets [601px -> 1200px]*/
   }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1200px) {
     /*Big smartphones [426px -> 600px]*/
     .parentDiv{
-        background-color: red;
+        background-color: #f5f5ff;
         flex-direction: column;
         display: flex;
         justify-content: center;

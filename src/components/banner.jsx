@@ -12,32 +12,36 @@ import MyImage from '../assets/img4.jpg'
 
 
 const Banner = () => {
-  const parallaxData = [
-    {
-      start: 0,
-      end:700,
+  // const parallaxData = [
+  //   {
+  //     start: 0,
+  //     end:700,
      
-      properties: [
-        {duration:1000,
-          startValue: 1,
-          transition:'easeOutCubic',
-          endValue: 0,
-          property: "scale",
-        },
-      ],
-    },
-  ];
+  //     properties: [
+  //       {duration:1000,
+  //         startValue: 1,
+  //         transition:'easeOutCubic',
+  //         endValue: 0,
+  //         property: "scale",
+  //       },
+  //     ],
+  //   },
+  // ];
 
 
   return (
     <>
 
-<Plx className="MyAwesomeParallax" parallaxData={parallaxData} 
+{/* <Plx className="MyAwesomeParallax" parallaxData={parallaxData} 
 style={{
   
 }}
 >
-<div className={style.parentDiv}>
+
+      </Plx> */}
+
+      <div>
+      <div className={style.parentDiv}>
         <div className={style.sectionOne}>
           <div className={style.textPart}>
             <div className={style.welcome}>
@@ -75,10 +79,6 @@ style={{
 
         </div>
       </div>
-      </Plx>
-
-      <div>
-      
         
       </div>
       
