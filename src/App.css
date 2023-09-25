@@ -8,8 +8,8 @@
 
 body{
   background-color: #282c34;
-  background-image: url(assets/pbg1.jpg);
-  /* background-size: cover; */
+  background-image: url(assets/pbg1.jpg)  !important ;
+  background-size: cover;
 }
 
 .App {

@@ -6,6 +6,7 @@ import Project from "../components/project";
 import CusTabs from "../components/cus-tabs";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
+import style from "../styles/index.module.css"
 
 const Home = () => {
   return (

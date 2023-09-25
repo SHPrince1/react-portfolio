@@ -54,7 +54,7 @@ function App() {
       <div className="loaderDiv">
 
       <GridLoader
-      color="black"
+      color="white"
         // color={color}
         loading={loading}
         cssOverride={override}

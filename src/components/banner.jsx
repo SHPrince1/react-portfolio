@@ -8,7 +8,8 @@ import Plx from "react-plx";
 import TypedAnimation from "./type";
 import { BsFillArrowRightSquareFill}  from 'react-icons/bs'
 import { NavLink } from "react-router-dom";
-import MyImage from '../assets/img4.jpg'
+import MyImage from '../assets/img4.jpg';
+import Sample from "../assets/sample.mp4"
 
 
 const Banner = () => {
@@ -41,7 +42,26 @@ style={{
       </Plx> */}
 
       <div>
-      <div className={style.parentDiv}>
+      
+        
+      <div className={style.contentDiv}>
+
+      <div className={style.videoContainer}>
+       
+
+        <video
+        className={style.videoContent}
+          source
+          src={Sample}
+          type="video/mp4"
+          autoPlay
+          loop
+          
+          muted />
+       
+    
+        </div>
+
         <div className={style.sectionOne}>
           <div className={style.textPart}>
             <div className={style.welcome}>
