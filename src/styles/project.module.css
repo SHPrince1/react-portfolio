@@ -25,7 +25,7 @@
     gap: 20px;
     cursor: pointer;
     flex-wrap: wrap;
-    /* width: 98%; */
+    width: 98%;
     justify-content: center;
     line-height: 0;
     row-gap: 0;
@@ -51,8 +51,23 @@
 
 
     .cardText{
+      /* border: 1px solid red; */
         width: 350px;
         margin-top: 0;
         /* text-align: left; */
     }
+
+
+
+    .projectsCardDiv{
+      display: flex;
+      gap: 20px;
+      cursor: pointer;
+      flex-wrap: wrap;
+      /* width: 98%; */
+      justify-content: center;
+      line-height: 0;
+      row-gap: 0;
+      /* grid-row-gap: 0 */
+  }
   }

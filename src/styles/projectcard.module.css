@@ -15,6 +15,7 @@ h1,h2, h3, h4, h5, h6, p{
 .cardParentDiv{
     /* display: flex; */
     position: relative;
+    border: 1px;
 
 }
 .descriptionDiv{
@@ -114,7 +115,28 @@ h1,h2, h3, h4, h5, h6, p{
   }
   @media only screen and (max-width: 425px) {
     /*Small smartphones [325px -> 425px] */
+
+
+    .descriptionDiv{
+      /*background-color: aqua;
+      */width: 100%;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: -230px 0px;}
+
+    .descriptionDiv .description{
+   
+      font-size:10px;
+     
+   }
   
     .pImage{
-        width: 340px;}
+        width: 150px;
+        height: 230px;
+        border-radius: 5px ;
+       
+}
   }
