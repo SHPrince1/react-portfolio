@@ -125,7 +125,7 @@ h1,h2, h3, h4, h5, h6, p{
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin: -230px 0px;}
+      margin: -200px 0px;}
 
     .descriptionDiv .description{
    
@@ -135,7 +135,7 @@ h1,h2, h3, h4, h5, h6, p{
   
     .pImage{
         width: 126px;
-        height: 230px;
+        height: 200px;
         border-radius: 10px ;
         -webkit-border-radius: 10px ;
         -moz-border-radius: 10px ;
