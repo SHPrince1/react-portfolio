@@ -134,9 +134,12 @@ h1,h2, h3, h4, h5, h6, p{
    }
   
     .pImage{
-        width: 132px;
+        width: 126px;
         height: 230px;
-        border-radius: 5px ;
-       
+        border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -ms-border-radius: 10px ;
+        -o-border-radius: 10px ;
 }
   }
