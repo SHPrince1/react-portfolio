@@ -9,7 +9,7 @@ import Project from "../src/pages/project";
 // import { SpinnerRoundFilled } from 'spinners-react';
 
 // https://mhnpd.github.io/react-loader-spinner/docs/intro
-import { Audio } from "react-loader-spinner";
+// import { Audio } from "react-loader-spinner";
 // ddddd
 import GridLoader from "react-spinners/GridLoader";
 import Footer from "./components/footer";

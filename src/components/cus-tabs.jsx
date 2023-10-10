@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import SwipeableViews from "react-swipeable-views";
+// import SwipeableViews from "react-swipeable-views";
 import { useTheme } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Tabs from "@mui/material/Tabs";
@@ -153,7 +153,7 @@ const CusTabs = () => {
             <Tab label="Item Three" {...a11yProps(2)} />
           </Tabs>
         </AppBar>
-        <SwipeableViews
+        {/* <SwipeableViews
           axis={theme.direction === "rtl" ? "x-reverse" : "x"}
           index={value}
           onChangeIndex={handleChangeIndex}
@@ -162,7 +162,7 @@ const CusTabs = () => {
           className={styles.swip}
           style={{overflow:'hidden'}}
 
-        >
+        > */}
           <TypedContainer>
           <TabPanel value={value} index={0} dir={theme.direction} className={styles.test}>
           
@@ -204,7 +204,7 @@ const CusTabs = () => {
           <TabPanel value={value} index={2} dir={theme.direction}>
             Item Three
           </TabPanel>
-        </SwipeableViews>
+        {/* </SwipeableViews> */}
       </Box>
     </div>
   );
