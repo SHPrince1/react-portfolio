@@ -184,7 +184,7 @@ margin-top: -50px;
         gap: 15px;
         align-items: center;
         transition: transform 1s;
-        margin-left: 28px;
+        margin-left: 4px;
 
       
 }
@@ -252,7 +252,7 @@ margin-top: -50px;
 
         display: flex;
     color: #fff;
-    width: 70px;
+    width: 50px;
       }
       .hide{
         display: flex;
