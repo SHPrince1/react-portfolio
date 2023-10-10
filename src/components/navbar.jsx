@@ -85,7 +85,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className={style.menuDiv} onClick={ToggleBurger}>
-          <Hamburger distance="sm" size={30} />
+          <Hamburger distance="sm" size={25} />
         </div>
       </div>
     </>
