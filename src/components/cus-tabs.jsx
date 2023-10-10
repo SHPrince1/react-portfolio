@@ -29,14 +29,14 @@ const data = [
     description: "Company's website",
     details: "Design and Development",
     image: bwimage,
-    url: "https://benevolent-bombolone-c31318.netlify.app/",
+    url:"https://idyllic-lokum-3be9f5.netlify.app/",
   },
   {
     title: "Bankers Ware house",
     description: "E-COMMERCE WEBSITE ",
     details: "Design and Development",
     image: store,
-    url:"https://idyllic-lokum-3be9f5.netlify.app/",
+    url:   "https://benevolent-bombolone-c31318.netlify.app/",
   },
   {
     title: "Bankers Ware house",
