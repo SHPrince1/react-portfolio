@@ -29,7 +29,7 @@ const data = [
     description: "Company's website",
     details: "Design and Development",
     image: bwimage,
-    url:"https://idyllic-lokum-3be9f5.netlify.app/",
+    url:"https://bw-clone.netlify.app/",
   },
   {
     title: "Bankers Ware house",
