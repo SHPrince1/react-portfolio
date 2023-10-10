@@ -93,6 +93,22 @@ h1{
     text-align: center;
     justify-content: center;
     cursor: pointer;
+    border: 1px solid #3dc8e9;
+    border-radius: 24px;
+    transition:  all linear 0.5s;
+  
+
+
+
+    /* background: linear-gradient(to right, #000 50%, #fff 50%); */
+  background-position: right bottom;
+  background-size: 200% 100%;
+}
+.send:hover{
+    background-color: #000;
+    color: #fff;
+    transform:linear(5deg);
+
 }
 
 
@@ -131,7 +147,7 @@ h1{
     .parentDiv{
         border: 1px solid #fff;
         background-color: #fff;
-        width: 100%;
+        width: 95%;
         height: 110%;
 
         border-radius: 25px;

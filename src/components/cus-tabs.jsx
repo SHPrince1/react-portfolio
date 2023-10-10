@@ -141,7 +141,7 @@ const CusTabs = () => {
             value={value}
             onChange={handleChange}
             indicatorColor="red"
-            // textColor="green"
+            textColor="green"
             variant="fullWidth"
            
             aria-label="full width tabs example"

@@ -97,10 +97,7 @@ align-items: center;
   background-color: #000;
   color: #fff;
   transition:  all linear 300ms;
-  -webkit-transition:  all linear 300ms;
-  -moz-transition:  all linear 300ms;
-  -ms-transition:  all linear 300ms;
-  -o-transition:  all linear 300ms;
+  
 }
 
 .connect a:hover{
@@ -183,11 +180,11 @@ margin-top: -50px;
       }
       
       .linksParentDiv {
-      /*border: 1px solid red;
-      */display: flex;
-      gap: 15px;
-      align-items: center;
-      transition: transform 1s;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        transition: transform 1s;
+        margin-left: 28px;
 
       
 }
@@ -250,8 +247,12 @@ margin-top: -50px;
         font-size: 9px;
       }
       .menuDiv{
+       
+
+
         display: flex;
-        color: #fff;
+    color: #fff;
+    width: 70px;
       }
       .hide{
         display: flex;

@@ -48,7 +48,7 @@ body {
 
 .sectionOne {
   position: absolute;
-  margin-top: 60px;
+  margin-top: 0;
   display: flex;
   /* border: 1px solid #fff; */
   box-shadow: 1px 1px 10px 10px #707070;
@@ -170,19 +170,27 @@ body {
 .imageDiv {
   position: relative;
   width: 25%;
-  animation: bounce 1.5s;
+  animation: bounce 1s ease-in-out;
   transform: translateZ(0px);
-  animation-iteration-count: 3;
+  animation-iteration-count: infinite;
   margin: 50px;
   height: 340px;
   margin-top: -39px;
- 
+  -webkit-animation: bounce 1s ease-in-out;
 }
-.img {
+img{
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.imgs {
   width: 380px;
   height: 380px;
   border-radius: 300px;
   position: absolute;
+ 
 }
 @keyframes bounce {
   0% {
@@ -231,7 +239,7 @@ body {
     display: block;
     gap: 10px;
 }
-.img{
+.imgs{
   width: 159px;
   height: 160px;
   border-radius: 300px;
