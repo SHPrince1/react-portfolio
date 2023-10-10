@@ -180,11 +180,13 @@ margin-top: -50px;
       }
       
       .linksParentDiv {
-        display: flex;
-        gap: 15px;
         align-items: center;
+        display: flex;
+        gap: 10px;
+        margin-left: 5px;
+        transition: -webkit-transform 1s;
         transition: transform 1s;
-        margin-left: 4px;
+        transition: transform 1s,-webkit-transform 1s;
 
       
 }
