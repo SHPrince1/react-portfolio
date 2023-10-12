@@ -52,10 +52,10 @@ body {
   display: flex;
   /* border: 1px solid #fff; */
   /* border: 1px solid #fff; */
-  /* box-shadow: 1px 1px 10px 10px #707070; */
+  box-shadow: 1px 1px 10px 10px #707070;
   /* background-color: hsl(180, 100%, .5); */
   border-radius: 20px;
-  /* height: 800px; */
+  height: 600px;
   width: 95%;
   align-items: center;
   justify-content: space-around;

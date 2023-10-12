@@ -8,7 +8,7 @@ import Plx from "react-plx";
 import TypedAnimation from "./type";
 import { BsFillArrowRightSquareFill}  from 'react-icons/bs'
 import { NavLink } from "react-router-dom";
-import MyImage from '../assets/img4.jpg';
+import MyImage from '../assets/catimg.jpg';
 import Sample from "../assets/sample.mp4"
 
 
