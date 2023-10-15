@@ -71,13 +71,12 @@ style={{
               <h2>Hi! I'm Sylvanus Prince</h2>
              
               <TypedAnimation />
+              {/* <h6>Based in Lagos Nigeria</h6> */}
             </div>
             <div className={style.aboutMeText}>
               <p>
-                Simple About me Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. At, recusandae voluptatem numquam quo harum
-                voluptatibus! Accusantium cum repellat veniam error! Lorem ipsum
-                dolor sit amet consectetur 
+              I am a software engineer based in <span style={{color:"Green", fontSize:"30px", fontWeight:"bold"}}>Lagos Nigeria</span>.
+             
                  
               </p>
               
