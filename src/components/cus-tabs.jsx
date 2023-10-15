@@ -149,8 +149,8 @@ const CusTabs = () => {
             style={{background:'blue'}}
           >
             <Tab label="Projects" {...a11yProps(0)}  />
-            <Tab label="Item Two" {...a11yProps(1)} />
-            <Tab label="Item Three" {...a11yProps(2)} />
+            <Tab label="Skills" {...a11yProps(1)} />
+            <Tab label="Others" {...a11yProps(2)} />
           </Tabs>
         </AppBar>
         {/* <SwipeableViews
@@ -169,9 +169,9 @@ const CusTabs = () => {
 
           <div className={style2.cardDiv} id="project">
             <div className={style2.cardText}>
-             <p>Some collaborated projects and contributions </p>
+             <p>Some collaborated projects and contributions slide and enjoy </p>
               
-              <p>slide and enjoy</p>
+              
             </div>
 
             <div className={style2.projectsCardDiv}>
@@ -196,7 +196,7 @@ const CusTabs = () => {
           </TypedContainer>
           
           <TabPanel value={value} index={1} dir={theme.direction}>
-            Item Two
+            SKILLS
           </TabPanel>
           <TabPanel value={value} index={2} dir={theme.direction}>
             Item Three

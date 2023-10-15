@@ -6,7 +6,7 @@
     width: 80%;
     margin: 70px auto;
     width: 65%;
-    height: 680px;
+    height: 750px;
     border: 1px solid #fff;
     /*margin: -10px auto;
     */align-items: center;
@@ -25,6 +25,7 @@
     /* border: 1px solid red; */
     width: 70%;
     margin: -10px auto;
+    height: 700px;
 
     /* display: flex;
     flex-direction: column; */
@@ -57,7 +58,7 @@
     .parentdiv{
     /* position: relative; */
         width: 99%;
-        height: 600px;
+        height: 680px;
     }
     .h1div{
         width: 35%;

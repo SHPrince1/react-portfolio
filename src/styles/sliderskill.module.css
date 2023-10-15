@@ -3,6 +3,17 @@
 }
 
 .settingsDiv{
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 425px) {
+    .imgs{
+        width: 50px;
+    } 
+    
+    .settingsDiv{
+        width: 70%;
+        margin: 0 auto;
+    }
 }

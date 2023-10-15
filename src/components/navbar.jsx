@@ -13,7 +13,7 @@ import { Spin as Hamburger } from "hamburger-react";
 import Logo from "../assets/sh-logo.png";
 
 const Navbar = () => {
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(true);
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
 

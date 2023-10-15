@@ -32,7 +32,7 @@ export default function Sliderskill() {
   return (
 
     <div className={Style.slideBox}><br />
-    <h3 className={Style.hTitle}>FAMILAR TOOLS</h3>
+    <h3 className={Style.hTitle}>FAMILIAR TECHNOLOGICAL TOOLS</h3>
     <Slider {...settings} className={Style.settingsDiv}>
       <div>
              <img   className={Style.imgs}src={uba} alt="fireSpot" />
