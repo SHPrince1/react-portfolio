@@ -169,12 +169,9 @@ const CusTabs = () => {
 
           <div className={style2.cardDiv} id="project">
             <div className={style2.cardText}>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
-              culpa sapiente ullam eum eos dolorem excepturi in? Facere hic
-              sint delectus veritatis, cumque libero iste illum fugiat
-              laudantium aut ea? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Pariatur accusantium et rerum saepe
-              consectetur tempore possimus quasi aut dolores eligendi.
+             <p>Some collaborated projects and contributions </p>
+              
+              <p>slide and enjoy</p>
             </div>
 
             <div className={style2.projectsCardDiv}>

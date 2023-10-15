@@ -25,7 +25,7 @@ const AboutMe = () => {
         </div>
 
         <div className={Style.skilSlideDiv}>
-            <h3>FAMILAR TOOLS</h3>
+            {/* <h3>FAMILAR TOOLS</h3> */}
             <div className={Style.slider}>
                 <Sliderskill />
                 
