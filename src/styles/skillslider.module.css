@@ -48,6 +48,9 @@
   -o-border-radius:60px ;
 }
 
+.imgs{
+  width: 100px;
+}
 @media only screen and (max-width: 1200px) {
 
 

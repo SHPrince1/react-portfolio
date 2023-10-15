@@ -7,12 +7,14 @@ import CusTabs from "../components/cus-tabs";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
 import style from "../styles/index.module.css"
+import AboutMe from "../components/about-me";
 
 const Home = () => {
   return (
     <>
       <Banner />
-      <Skills />
+      {/* <Skills /> */}
+      <AboutMe />
       <CusTabs />
       <Contact />
       

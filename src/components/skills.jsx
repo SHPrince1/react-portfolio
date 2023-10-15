@@ -35,9 +35,14 @@ const Skills = () => {
         </div>
         <div className={style.skillsText}>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
-            fugiat saepe praesentium alias neque nostrum nulla eligendi esse
-            natus rerum?
+          I am SHPrince,
+A Tech Ethiusiast ,Web developer, Software engineer and a student of computer science.
+
+I am really passionate about web development and software engineering. I love to solve problems and take on challenges especially when it comes to building projects.
+
+I believe in the principle of geting it done and keep making it better. Getting the job done brings me joy, it's a pleasure to keep improving on it.
+
+I look forward to colaborating with individuals and corporate bodies in bringing solution, values, and improving what has already been done.
           </p>
         </div>
 

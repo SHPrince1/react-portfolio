@@ -1,0 +1,82 @@
+p, h1{
+    color: #fff;
+}
+
+.parentdiv{
+    width: 80%;
+    margin: 70px auto;
+    width: 65%;
+    height: 700px;
+    border: 1px solid #fff;
+    /* margin: -10px auto; */
+    align-items: center;
+    /* background-color: #000; */
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 75px;
+}
+.h1div{
+    width: 40%;
+    margin: 0 auto;
+}
+.paragraphDiv{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: 0 auto;
+
+    /* display: flex;
+    flex-direction: column; */
+   
+}
+.skilSlideDiv h3{
+    display: flex;
+    justify-content: center;
+    /* width: 70px; */
+    margin: 0 auto;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+
+    /*Tablets [601px -> 1200px]*/
+    
+  }
+  @media only screen and (max-width: 1000px) {
+  
+  
+    /*Big smartphones [426px -> 600px]*/
+  
+    
+  }
+  @media only screen and (max-width: 425px) {
+    /*Small smartphones [325px -> 425px] */
+    .parentdiv{
+    /* position: relative; */
+        width: 99%;
+        height: 600px;
+    }
+    .h1div{
+        width: 35%;
+        margin: 10px auto;
+        /* position: absolute; */
+    }
+    .h1div h1{
+        margin-top: 10px;
+    }
+    .paragraphDiv{
+        /* border: 1px solid red; */
+        width: 90%;
+        margin: 50px  auto;
+        height: 90%;
+        align-items: center;
+    
+        /* display: flex;
+        flex-direction: column; */
+       
+    }
+  
+    
+  }
