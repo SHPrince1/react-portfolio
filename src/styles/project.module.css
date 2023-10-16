@@ -1,8 +1,8 @@
 .cardDiv{
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
-    gap: 30px;
+    gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
     /* position: fixed; */
@@ -21,11 +21,12 @@
     /* margin: 100px auto; */
 }
 .projectsCardDiv{
-    display: flex;
+  /* border: 1px solid red; */
+    /* display: flex; */
     gap: 20px;
     cursor: pointer;
-    flex-wrap: wrap;
-    width: 98%;
+    /* flex-wrap: wrap; */
+    width: 100%;
     justify-content: center;
     line-height: 0;
     row-gap: 0;
@@ -53,7 +54,7 @@
     .cardText{
       /* border: 1px solid red; */
         width: 350px;
-        margin-top: 0;
+        margin-top: -44px;
         text-align: start;
         font-family: poppins;
     }
@@ -61,14 +62,21 @@
 
 
     .projectsCardDiv{
-      display: flex;
+      /* border: 1px solid red; */
+      /* display: flex; */
       gap: 20px;
       cursor: pointer;
-      flex-wrap: wrap;
-      /* width: 98%; */
-      justify-content: center;
+      overflow:auto;
+      /* flex-wrap: wrap; */
+      width: 100%;
+      height: 340px;
+      margin-top: -25px;
+      /* justify-content: center;
       line-height: 0;
-      row-gap: 0;
+      row-gap: 0; */
       /* grid-row-gap: 0 */
+  }
+  .cardDiv{
+    display: flex;
   }
   }

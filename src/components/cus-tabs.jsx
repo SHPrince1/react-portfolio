@@ -18,13 +18,30 @@ import products from "../assets/products.png";
 import calcu from "../assets/calcu.png";
 import ebm from "../assets/ebm.png";
 import country from "../assets/country.png";
+import cod from "../assets/cod.png";
+import t47 from "../assets/t47.png";
 // import CusTabs from './cus-tabs';
 
 import styles from "../styles/custab.module.css";
 import style2 from '../styles/project.module.css'
 
 const data = [
+ 
   {
+    title: "COD TRAVELS",
+    description: "TRAVELING ",
+    details: "Design and Development",
+    image: cod,
+    url:   "https://codtravels.com/",
+  },
+  {
+    title: "274 TRAVELS",
+    description: "AIRLINE BOOKING WEB APP",
+    details: "Design and Development",
+    image: t47,
+    url:   "https://247travels.com/",
+  },
+   {
     title: "Bankers Ware house",
     description: "Company's website",
     details: "Design and Development",
@@ -169,8 +186,7 @@ const CusTabs = () => {
 
           <div className={style2.cardDiv} id="project">
             <div className={style2.cardText}>
-             <p>Some collaborated projects and contributions slide and enjoy </p>
-              
+             <p>Some  personal and collaborated projects with other developers </p>
               
             </div>
 
