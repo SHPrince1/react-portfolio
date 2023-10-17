@@ -107,13 +107,13 @@
     /*Small smartphones [325px -> 425px] */
 
     .parentDiv{
-        width: 95%;
+        width: 99%;
         height: 400px;
         margin-top: -1px;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin: 15px auto;
+        margin: 30px auto;
     }
     .text{
         width: 330px;

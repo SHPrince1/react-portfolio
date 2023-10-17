@@ -10,6 +10,7 @@ import Box from "@mui/material/Box";
 import styled from "styled-components";
 import Project from "./project";
 import ProjectCard from "./project-Card";
+import MySkills from "../components/my-skills"
 import style from "../styles/project.module.css";
 import bwimage from "../assets/bwimage.png";
 // images
@@ -57,34 +58,22 @@ const data = [
   },
   {
     title: "Bankers Ware house",
-    description: "Business Start-up",
+    description: "A Logistics Website",
     details: "Design and Development",
     image: products,
-    url:"https://productsdesign.netlify.app/",
+    url:"https://justmove.com.ng",
   },
+  
   {
     title: "Bankers Ware house",
-    description: "Business Start-up",
-    details: "Design and Development",
-    image: calcu,
-    url:"https://rgss-coding-calculator.netlify.app/",
-  },
-  {
-    title: "Bankers Ware house",
-    description: "Business Start-up",
+    description: "Countries Name and Flag",
     details: "Design and Development",
     image: country,
 
     url:"https://transcendent-otter-8c4077.netlify.app/",
   
   },
-  {
-    title: "Bankers Ware house",
-    description: "Business Start-up",
-    details: "Design and Development",
-    image: ebm,
-    url:"https://ebm-web-app.netlify.app/",
-  },
+ 
 ];
 
 function TabPanel(props) {
@@ -212,7 +201,9 @@ const CusTabs = () => {
           </TypedContainer>
           
           <TabPanel value={value} index={1} dir={theme.direction}>
-            SKILLS
+            <div>
+              <MySkills />
+            </div>
           </TabPanel>
           <TabPanel value={value} index={2} dir={theme.direction}>
             Item Three
