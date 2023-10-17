@@ -10,7 +10,7 @@ import Box from "@mui/material/Box";
 import styled from "styled-components";
 import Project from "./project";
 import ProjectCard from "./project-Card";
-import MySkills from "../components/my-skills"
+// import MySkills from "../components/my-skills"
 import style from "../styles/project.module.css";
 import bwimage from "../assets/bwimage.png";
 // images
@@ -202,7 +202,7 @@ const CusTabs = () => {
           
           <TabPanel value={value} index={1} dir={theme.direction}>
             <div>
-              <MySkills />
+              {/* <MySkills /> */}
             </div>
           </TabPanel>
           <TabPanel value={value} index={2} dir={theme.direction}>
