@@ -12,8 +12,8 @@ import Project from "./project";
 import ProjectCard from "./project-Card";
 // import MySkills from "../components/my-skills"
 import style from "../styles/project.module.css";
-import bwimage from "../assets/bwimage.png";
 // images
+import bwimage from "../assets/bwimage.png";
 import store from "../assets/store.png";
 import products from "../assets/products.png";
 import calcu from "../assets/calcu.png";
