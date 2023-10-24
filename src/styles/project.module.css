@@ -55,7 +55,7 @@
 
     .cardText{
       /* border: 1px solid red; */
-        width: 350px;
+        width: 300px;
         margin-top: -44px;
         text-align: start;
         font-family: poppins;
@@ -80,5 +80,7 @@
   }
   .cardDiv{
     display: flex;
+    width: 400px;
+    margin-left: -53px;
   }
   }
