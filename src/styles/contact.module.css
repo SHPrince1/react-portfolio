@@ -81,6 +81,9 @@ h1{
 .textSection placeholder{
     margin-top: -10px;
 }
+.textSection h1{
+    color: #000;
+}
 .send{
     margin-top: 20px;
     width: 160px;

@@ -212,13 +212,13 @@ const CusTabs = () => {
              
               <MySkills  bgcolor="green" progress='75' text='NextJS '  height={30}/>
              
-              <MySkills  bgcolor="green" progress='60' text='Wordpress ' height={30}/>
+              <MySkills  bgcolor="green" progress='70' text='REDUX ' height={30}/>
               <MySkills  bgcolor="green" progress='60' text='Wordpress ' height={30}/>
               
 
             </div>
             <div className={styles.progressBarCont2}>
-               <MySkills bgcolor="orange" progress='25'  height={30}/>
+               <MySkills bgcolor="orange" progress='90' text='CSS3 '  height={30}/>
              
            
               
@@ -226,8 +226,8 @@ const CusTabs = () => {
              
               <MySkills  bgcolor="green" progress='75' text='Tailwind CSS '  height={30}/>
              
-              <MySkills  bgcolor="green" progress='60' text='Wordpress ' height={30}/>
-              <MySkills  bgcolor="green" progress='60' text='Wordpress ' height={30}/>
+              <MySkills  bgcolor="green" progress='90' text='Boostrap ' height={30}/>
+              <MySkills  bgcolor="green" progress='70' text='AntD ' height={30}/>
 
             </div>
 
