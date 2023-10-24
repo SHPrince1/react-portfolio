@@ -1,5 +1,6 @@
 import React from 'react'
 import Style from "../styles/myskills.module.css"
+import styled from 'styled-components'
 
 const MySkills = ({bgcolor,progress,height,text}) => {
 
@@ -9,6 +10,8 @@ const MySkills = ({bgcolor,progress,height,text}) => {
         backgroundColor: 'whitesmoke', 
         borderRadius: 40, 
         margin: "20px auto", 
+
+        
         
       } 
       

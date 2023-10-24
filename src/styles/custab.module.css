@@ -171,9 +171,14 @@
 
         flex-direction: column;
         gap: 1px;
-        width: 40%;
+        width: 100%;
         /* border: 1px solid #fff; */
         margin: 0 auto;
         margin-left: 4px;
+        height: 300px;
+        overflow: scroll;
+    }
+    .progressBarCont1, .progressBarCont2{
+        width: 38%;
     }
   }
