@@ -32,7 +32,7 @@ const Footer = () => {
               <a href="https://twitter.com/SHPrince_">
                 <AiFillTwitterCircle className={style1.Icons} />
               </a>
-              <a href="https://twitter.com/SHPrince_">
+              {/* <a href="https://twitter.com/SHPrince_">
                 <AiFillTwitterCircle className={style1.Icons} />
               </a>
               <a href="https://twitter.com/SHPrince_">
@@ -40,7 +40,7 @@ const Footer = () => {
               </a>
               <a href="https://twitter.com/SHPrince_">
                 <AiFillTwitterCircle className={style1.Icons} />
-              </a>
+              </a> */}
             </div>
           </div>
         <div className={style1.copy}>

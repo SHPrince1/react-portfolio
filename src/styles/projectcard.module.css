@@ -44,7 +44,7 @@ h1,h2, h3, h4, h5, h6, p{
 }
 .descriptionDiv h4{
    
-   font-size:30px;
+   font-size:20px;
   
 }
 .descriptionDiv a{
@@ -67,11 +67,20 @@ h1,h2, h3, h4, h5, h6, p{
     transition: ease-in-out 0.4s;
     transform: all linear 300ms ;
 }
+.rolePlayed{
+  /* width: 400px; */
+  margin: 0 auto;
+  display: flex;
+  /* height: 100px; */
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
 .btnAchn{
   background-color: aqua !important;
 }
 .linkDiv{
   /* background-color: red; */
+  margin-top: 100px;
 }
 .descriptionDiv a:hover{
   background-color: #fff;
@@ -79,7 +88,7 @@ h1,h2, h3, h4, h5, h6, p{
   color: #000 !important;
   background-position: left bottom;
   border: 2px solid #000;
-  margin-left: 40px;
+  /* margin-left: 40px; */
   transition: linear 0.4s ;
   -webkit-transition: linear 0.4s ;
   -moz-transition: linear 0.4s ;

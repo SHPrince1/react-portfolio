@@ -50,9 +50,9 @@ body {
   position: absolute;
   margin-top: 0;
   display: flex;
+  border: 1px solid #fff;
   /* border: 1px solid #fff; */
-  /* border: 1px solid #fff; */
-  box-shadow: 1px 1px 10px 10px #707070;
+  /* box-shadow: 1px 1px 10px 10px #707070; */
   /* background-color: hsl(180, 100%, .5); */
   border-radius: 20px;
   height: 600px;
@@ -96,11 +96,11 @@ body {
   margin-top: 10px;
 }
 .nameAndAnimation {
-  line-height: 23px;
+  line-height: 53px;
 }
 
 .nameAndAnimation h2 {
-  font-size: 40px;
+  font-size: 60px;
 }
 .aboutMeText {
   margin-top: 30px;
@@ -171,7 +171,7 @@ body {
 }
 .imageDiv {
   position: relative;
-  width: 25%;
+  width: 35%;
   animation: bounce 1s ease-in-out;
   transform: translateZ(0px);
   animation-iteration-count: infinite;
@@ -180,8 +180,10 @@ body {
   margin-top: -39px;
   -webkit-animation: bounce 1s ease-in-out;
 }
-img{
+.img1{
   border-radius: 50px;
+  width: 450px;
+  height: 450px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
@@ -189,7 +191,7 @@ img{
 }
 .imgs {
   width: 380px;
-  height: 380px;
+  height: 580px;
   border-radius: 300px;
   position: absolute;
  
@@ -269,10 +271,9 @@ img{
     flex-direction: column;
     justify-content: space-around;
     box-shadow: 0px 0px 0px 0px #707070;
-    /* margin-top: 80px;
-     */
-     margin-top: -80px;
-    height: 580px;
+    /* margin-top: 80px; */
+    margin-top: 705px;
+    height: 681px;
   }
   .textPart {
     /* border: 1px solid #000; */
@@ -329,6 +330,9 @@ img{
     background-position: right bottom;
     background-size: 200% 100%;
   }
+  .sectionOne{
+    border: 0px solid #fff;
+  }
 
   .connectDivLink :hover {
     transition: all ease-in-out.5s;
@@ -376,7 +380,7 @@ img{
   .imageDiv {
     position: relative;
     visibility: visible;
-    width: 25%;
+    width: 95%;
     animation: bounce 1.5s;
     /* transform: translateZ(0px); */
     animation-iteration-count: 2;
@@ -388,6 +392,14 @@ img{
   .img{
     margin-left: -10px;
   }
+
+  .img1 {
+    border-radius: 50px;
+    width: 324px;
+    height: 329px;
+    margin-right: -104px;
+   
+}
 
   @keyframes bounce {
     0% {

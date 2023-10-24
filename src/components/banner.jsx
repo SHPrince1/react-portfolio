@@ -46,7 +46,7 @@ style={{
         
       <div className={style.contentDiv}>
 
-      <div className={style.videoContainer}>
+      {/* <div className={style.videoContainer}>
        
 
         <video
@@ -60,13 +60,13 @@ style={{
           muted />
        
     
-        </div>
+        </div> */}
 
         <div className={style.sectionOne}>
           <div className={style.textPart}>
-            <div className={style.welcome}>
+            {/* <div className={style.welcome}>
               <p>Welcome to my Portfolio</p>
-            </div>
+            </div> */}
             <div className={style.nameAndAnimation}>
               <h2>Hi! I'm Sylvanus Prince</h2>
              
@@ -91,7 +91,7 @@ style={{
           </div>
 
           <div className={style.imageDiv}>
-            <img src={MyImage} alt='My own image' width={380} height={380} className={style.img}/>
+            <img src={MyImage} alt='My own image' width={380} height={380} className={style.img1}/>
           </div>
 
 

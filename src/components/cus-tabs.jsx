@@ -30,9 +30,10 @@ const data = [
  
   {
     title: "COD TRAVELS",
-    description: "TRAVELING ",
+    description: "A traveling web app for flight booking",
     details: "Design and Development",
     image: cod,
+    roleplayed:"Designed the frontend user-interface",
     url:   "https://codtravels.com/",
   },
   {
@@ -188,6 +189,7 @@ const CusTabs = () => {
                     image={data.image}
                     description={data.description}
                     details={data.details}
+                    roleplayed={data.roleplayed}
                     url={data.url}
                   />
                 );

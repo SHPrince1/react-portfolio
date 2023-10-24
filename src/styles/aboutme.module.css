@@ -56,9 +56,10 @@
   @media only screen and (max-width: 425px) {
     /*Small smartphones [325px -> 425px] */
     .parentdiv{
-    /* position: relative; */
-        width: 99%;
-        height: 680px;
+        /* position: relative;  */
+        width: 95%;
+        height: 622px;
+        margin-top: 700px;
     }
     .h1div{
         width: 35%;
@@ -66,14 +67,13 @@
         /* position: absolute; */
     }
     .h1div h1{
-        margin-top: 10px;
+        margin-top: -10px;
     }
     .paragraphDiv{
         /* border: 1px solid red; */
         width: 90%;
-        margin: 50px  auto;
-        height: 90%;
-        align-items: center;
+        margin: 15px auto;
+        height: 90%
     
         /* display: flex;
         flex-direction: column; */

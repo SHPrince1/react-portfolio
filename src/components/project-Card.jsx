@@ -11,7 +11,10 @@ const ProjectCard = (props) => {
       <div className={style.descriptionDiv}>
         <h4 className={style.description}>{props.description}</h4>
         <p  className={style.description}>{props.details}</p>
-        <br></br>
+        <p >Role Played:</p>
+
+        <p className={style.rolePlayed}>{props.roleplayed} </p>
+        {/* <br></br> */}
         <div className={style.linkDiv}>
           <a className={style.btnAchn} href={props.url}>Visit Link</a>
         </div>

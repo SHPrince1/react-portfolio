@@ -5,6 +5,7 @@
     gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
+    /* width: px; */
     /* position: fixed; */
     
    
@@ -27,6 +28,7 @@
     cursor: pointer;
     flex-wrap: wrap;
     width: 100%;
+    max-width: 80%;
     justify-content: center;
     line-height: 0;
     row-gap: 0;
