@@ -87,7 +87,15 @@
     display: flex;
     justify-content: center;
 }
-
+.progressBarDiv{
+    display: flex;
+    /* justify-content: center; */
+    gap: 280px;
+    width: 80%;
+    /* border: 1px solid #fff; */
+    margin: 0 180px;
+    /* line-height: 1; */
+}
 
 
 
@@ -157,5 +165,15 @@
         overflow: hidden;
         background-color: #000;
         /* border: 1px solid red; */
+    }
+    .progressBarDiv{
+        display: flex;
+
+        flex-direction: column;
+        gap: 1px;
+        width: 40%;
+        /* border: 1px solid #fff; */
+        margin: 0 auto;
+        margin-left: 4px;
     }
   }
