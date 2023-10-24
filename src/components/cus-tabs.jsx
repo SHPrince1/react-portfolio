@@ -206,14 +206,15 @@ const CusTabs = () => {
             <div className={styles.progressBarDiv}>
             <div className={styles.progressBarCont1}>
               
-              <MySkills bgcolor="green" progress='90' text='JavaScript' height={30} />
+              <MySkills bgcolor="orange" progress='90' text='JavaScript' height={30} />
               
-              <MySkills bgcolor="blue" progress='85' text='ReactJS ' height={30} />
+              <MySkills bgcolor="gold" progress='85' text='ReactJS ' height={30} />
              
-              <MySkills  bgcolor="green" progress='75' text='NextJS '  height={30}/>
+              <MySkills  bgcolor="orange" progress='75' text='NextJS '  height={30}/>
              
-              <MySkills  bgcolor="green" progress='70' text='REDUX ' height={30}/>
-              <MySkills  bgcolor="green" progress='60' text='Wordpress ' height={30}/>
+              <MySkills  bgcolor="gold" progress='70' text='REDUX ' height={30}/>
+              <MySkills  bgcolor="orange" progress='60' text='Wordpress ' height={30}/>
+              <MySkills  bgcolor="gold" progress='60' text='Git ' height={30}/>
               
 
             </div>
@@ -222,12 +223,13 @@ const CusTabs = () => {
              
            
               
-              <MySkills bgcolor="blue" progress='85' text='SCSS ' height={30} width={10} />
+              <MySkills bgcolor="gold" progress='85' text='SCSS ' height={30} width={10} />
              
-              <MySkills  bgcolor="green" progress='75' text='Tailwind CSS '  height={30}/>
+              <MySkills  bgcolor="orange" progress='75' text='Tailwind CSS '  height={30}/>
              
-              <MySkills  bgcolor="green" progress='90' text='Boostrap ' height={30}/>
-              <MySkills  bgcolor="green" progress='70' text='AntD ' height={30}/>
+              <MySkills  bgcolor="gold" progress='90' text='Boostrap ' height={30}/>
+              <MySkills  bgcolor="orange" progress='70' text='AntD ' height={30}/>
+              <MySkills  bgcolor="gold" progress='70' text='Material UI ' height={30}/>
 
             </div>
 
