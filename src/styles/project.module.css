@@ -55,10 +55,12 @@
 
     .cardText{
       /* border: 1px solid red; */
-        width: 300px;
-        margin-top: -44px;
-        text-align: start;
-        font-family: poppins;
+       font-family: poppins;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    margin-top: -40px;
     }
 
 
@@ -80,7 +82,8 @@
   }
   .cardDiv{
     display: flex;
-    width: 400px;
-    margin-left: -53px;
+    width: 100%;
+    /* margin-left: -49px; */
+    margin: 0 auto;
   }
   }
