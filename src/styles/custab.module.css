@@ -96,7 +96,11 @@
     margin: 0 180px;
     /* line-height: 1; */
 }
-
+.textPart{
+    width: 40%;
+    font-size: 20px;
+    margin: 0 auto;
+}
 
 
 
@@ -180,5 +184,10 @@
     }
     .progressBarCont1, .progressBarCont2{
         width: 38%;
+    }
+    .textPart{
+        width: 80%;
+        font-size: 20px;
+        margin: 0 auto;
     }
   }

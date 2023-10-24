@@ -82,12 +82,13 @@ style={{
               
             </div>
             <div className={style.connectDiv}>
-              <NavLink  className={style.connectDivLink} to='#' onClick={()=>console.log('connect')}>
+              <NavLink  className={style.connectDivLink} to="mailto:princehsylvanus@gmail.com" onClick={()=>console.log('connect')}>
               Let's connect < BsFillArrowRightSquareFill  size={30}/>
                 </NavLink>
              
               
             </div>
+            
           </div>
 
           <div className={style.imageDiv}>

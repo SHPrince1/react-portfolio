@@ -203,6 +203,7 @@ const CusTabs = () => {
           </TypedContainer>
           
           <TabPanel value={value} index={1} dir={theme.direction} >
+            <div className={styles.textPart}>There is always space and place for improvement</div>
             <div className={styles.progressBarDiv}>
             <div className={styles.progressBarCont1}>
               
