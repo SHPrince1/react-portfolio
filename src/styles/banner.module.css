@@ -68,8 +68,9 @@ body {
 
 .textPart {
   /* border: 1px solid #000; */
-  width: 40%;
+  width: 50%;
   display: block;
+  padding: 30px;
   gap: 10px;
 }
 .welcome {
@@ -97,14 +98,15 @@ body {
 }
 .nameAndAnimation {
   line-height: 53px;
+  /* font-size: 12px; */
 }
 
 .nameAndAnimation h2 {
-  font-size: 60px;
+  font-size: 70px;
 }
 .aboutMeText {
   margin-top: 30px;
-  width: 318px;
+  width: 80%;
 }
 .aboutMeText p {
   font-size: 20px;
@@ -114,7 +116,7 @@ body {
 }
 .connectDiv {
   display: flex;
-  gap: 8px;
+  gap: 20px;
   align-items: center;
   /* border: 2px solid #fff;
   width: 209px; */
@@ -169,12 +171,44 @@ body {
   color: #000 !important;
   background-position: left bottom;
 }
+.followBox{
+  border: 2px solid #fff;
+  background-color: #0b0216;
+  display: flex;
+  gap: 1px;
+  
+
+  /* margin: 0 auto; */
+  border-radius: 15%;
+ 
+  width: 209px;
+  height: 50px;
+  
+  border-radius: 60px;
+}
+.followBox a{
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-left: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.followBox a:hover{
+  width: 40px;
+  height: 40px;
+  
+}
 .imageDiv {
   position: relative;
   width: 35%;
   animation: bounce 1s ease-in-out;
   transform: translateZ(0px);
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   margin: 50px;
   height: 340px;
   margin-top: -39px;

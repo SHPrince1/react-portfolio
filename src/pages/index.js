@@ -1,4 +1,5 @@
 import React from "react";
+// import { motion, useScroll } from "framer-motion"
 
 import Banner from "../components/banner";
 import Skills from "../components/skills";
@@ -10,8 +11,10 @@ import style from "../styles/index.module.css"
 import AboutMe from "../components/about-me";
 
 const Home = () => {
+ 
   return (
     <>
+    
       <Banner />
       {/* <Skills /> */}
       <AboutMe />
@@ -24,3 +27,9 @@ const Home = () => {
 };
 
 export default Home;
+
+
+
+
+
+

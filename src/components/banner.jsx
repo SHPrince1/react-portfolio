@@ -1,9 +1,14 @@
 import React from "react";
 import style from "../styles/banner.module.css";
+import {motion} from 'framer-motion';
+import style2 from "../styles/reactIconStyles.module.css";
 
 
 // https://www.npmjs.com/package/react-plx
 import Plx from "react-plx";
+
+// icons importation
+import {AiFillGithub,AiFillLinkedin, AiFillTwitterCircle} from "react-icons/ai";
 
 import TypedAnimation from "./type";
 import { BsFillArrowRightSquareFill}  from 'react-icons/bs'
@@ -41,7 +46,12 @@ style={{
 
       </Plx> */}
 
-      <div>
+      <motion.div
+      initial={{rotate:'180deg', scale:0}}
+      animate={{rotate:'0deg', scale:1}}
+     
+      transition={{ ease: 'easeInOut',  duration:1, stiffness: 100 }}
+      >
       
         
       <div className={style.contentDiv}>
@@ -75,7 +85,10 @@ style={{
             </div>
             <div className={style.aboutMeText}>
               <p>
-              I am a software engineer based in <span style={{color:"Green", fontSize:"30px", fontWeight:"bold"}}>Lagos Nigeria</span>.
+              I am a software engineer Well crafted for brand development and  services based in<br /> <span style={{color:"Green", fontSize:"30px", fontWeight:"bold"}}>Lagos Nigeria</span>.
+
+
+             
              
                  
               </p>
@@ -83,8 +96,24 @@ style={{
             </div>
             <div className={style.connectDiv}>
               <NavLink  className={style.connectDivLink} to="mailto:princehsylvanus@gmail.com" onClick={()=>console.log('connect')}>
-              Let's connect < BsFillArrowRightSquareFill  size={30}/>
+              Email me < BsFillArrowRightSquareFill  size={30}/>
                 </NavLink>
+                <div className={style.followBox}>
+
+                
+            <NavLink to="https://github.com/SHPrince1">
+              <AiFillGithub size={40} color="white" />
+            </NavLink>
+            <NavLink to="https://www.linkedin.com/feed/">
+              <AiFillLinkedin size={40}  />
+            </NavLink>
+            <NavLink to="https://twitter.com/SHPrince_">
+              <AiFillTwitterCircle size={40} />
+            </NavLink>
+          
+
+
+                </div>
              
               
             </div>
@@ -92,7 +121,7 @@ style={{
           </div>
 
           <div className={style.imageDiv}>
-            <img src={MyImage} alt='My own image' width={380} height={380} className={style.img1}/>
+            <img src={MyImage} alt='My own image' width={400} height={380} className={style.img1}/>
           </div>
 
 
@@ -100,7 +129,7 @@ style={{
         </div>
       </div>
         
-      </div>
+      </motion.div>
       
     </>
   );
