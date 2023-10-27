@@ -105,7 +105,7 @@
     /*Small smartphones [325px -> 425px] */
 
     .parentDiv{
-        width: 99%;
+        width: 95%;
         height: 400px;
         margin-top: -1px;
         display: flex;
