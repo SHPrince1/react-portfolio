@@ -8,12 +8,18 @@ import Slider from "react-slick";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 
-import uba from "../assets/uba.png"
-import ecobank from "../assets/ecobank.png"
-// import gtb from "../assets/gtb.png"
-import keystone from "../assets/keystone.png"
-import providus from "../assets/providus.png"
-import standard from "../assets/standard.png"
+
+import JS from '../assets/js.png'
+import Rct from '../assets/react.jpeg'
+import Next from '../assets/next.png'
+import Boost from '../assets/bootstrap.jpeg'
+import Tailw from '../assets/tailwind.png'
+import Red from '../assets/redux.png'
+import Ant from '../assets/antd.jpeg'
+import WP from '../assets/wp.png'
+import Sass from '../assets/sass.png'
+
+
 import Style from "../styles/sliderskill.module.css"
 
 export default function Sliderskill() {
@@ -32,24 +38,40 @@ export default function Sliderskill() {
   return (
 
     <div className={Style.slideBox}><br />
-    <h3 className={Style.hTitle}>FAMILIAR TECHNOLOGICAL TOOLS</h3>
+    <h3 className={Style.hTitle}>MY TECHNOLOGICAL TOOLS</h3>
     <Slider {...settings} className={Style.settingsDiv}>
       <div>
-             <img   className={Style.imgs}src={uba} alt="fireSpot" />
+            
+             <img   className={Style.imgs}src={JS} alt="fireSpot" />
 
           </div>
           <div>
-          <img   className={Style.imgs}src={ecobank} alt="fireSpot" />
+       
+          <img   className={Style.imgs}src={Rct} alt="fireSpot" />
           </div>
          
           <div>
-          <img   className={Style.imgs}src={keystone} alt="fireSpot" />
+          <img   className={Style.imgs}src={Next} alt="fireSpot" />
+         
           </div>
           <div>
-          <img   className={Style.imgs}src={providus} alt="fireSpot" />
+          <img   className={Style.imgs}src={Tailw} alt="fireSpot" />
           </div>
           <div>
-          <img   className={Style.imgs}src={standard} alt="fireSpot" />
+          <img   className={Style.imgs}src={Boost} alt="fireSpot" />
+         
+          </div>
+          <div>
+          <img   className={Style.imgs}src={WP} alt="fireSpot" />
+         
+          </div>
+          <div>
+          <img   className={Style.imgs}src={Ant} alt="fireSpot" />
+         
+          </div>
+          <div>
+          <img   className={Style.imgs}src={Sass} alt="fireSpot" />
+         
           </div>
     </Slider>
     </div>
