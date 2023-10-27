@@ -86,7 +86,7 @@ style={{
             </div>
             <div className={style.aboutMeText}>
               <p>
-              I am a software engineer Well crafted for brand development and  services based in<br /> <span style={{color:"Green", fontSize:"30px", fontWeight:"bold"}}>Lagos Nigeria</span>.
+              I am a software engineer Well crafted for brand development and  services. I'm based in<br /> <span style={{color:"Green", fontSize:"30px", fontWeight:"bold"}}>Lagos Nigeria</span>.
 
 
              
