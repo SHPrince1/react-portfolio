@@ -18,16 +18,18 @@
 .boxDiv{
     background-color:#000 !important;
     border: 1px solid #fff;
-    border-radius: 50px;
-    width: 90%;
+    border-radius: 30px;
+    width: 99%;
+    /* max-width: 90%; */
+    min-width: 80%;
     margin: 50px auto;
     margin-top: 18px !important;
     /*position: absolute;
     */overflow-y: hidden!important;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 .appBarStyle{
     height: 50px;
@@ -93,7 +95,7 @@
     gap: 280px;
     width: 80%;
     /* border: 1px solid #fff; */
-    margin: 0 180px;
+    margin: 0 300px;
     /* line-height: 1; */
 }
 .textPart{

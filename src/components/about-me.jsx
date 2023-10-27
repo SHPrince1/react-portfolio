@@ -1,40 +1,56 @@
-import React from 'react'
-import Style from "../styles/aboutme.module.css"
-import styled from 'styled-components'
+import React from "react";
+import Style from "../styles/aboutme.module.css";
+import styled from "styled-components";
 import Sliderskill from "../components/sliderskills";
-import Prince from "../assets/prince5.png"
+import Prince from "../assets/embo.jpg";
 
 const AboutMe = () => {
   return (
     <>
-    
-   
-   <div className={Style.container}>
-    <div className={Style.imageDiv}>
-      <img src={Prince} />
-    </div>
-    <div className={Style.text}>
-      <h3>About me</h3>
-      <h2>Consistency is the rule of the game</h2>
-      <div>
+    <div className={Style.generalDiv}>
+    <div className={Style.perentDiv}>
+        <div className={Style.imageDiv}>
+          <img src={Prince} />
+        </div>
+        <div className={Style.textDiv}>
+          <h3>About me</h3>
+          <h4>
+            
+          Consistent growth & improvement is the rule of the Game</h4>
+          <div className={Style.textP}>
+          <p>
+          A Tech Ethiusiast ,Web developer, Software engineer and a student of computer science.
+          </p>
 
-      <p>I am SHPrince,</p>
-      <p>A Tech Ethiusiast ,Web developer, Software engineer and a student of computer science. 
-      I am really passionate about web development and software engineering. I love to solve problems and take on challenges especially when it comes to building projects.
+          <p>
+          I am really passionate about web development and software engineering. I love to solve problems and take on challenges.
+          </p>
+          <p>I look forward to colaborating with fellow software engineer, give value and increase my value.</p>
 
-      </p>
-      <p>I look forward to colaborating with individuals and corporate bodies in bringing solution, values, and improving what has already been done.
-
-</p>
+          </div>
+         
+        </div>
       </div>
-        
+      <div className={Style.blockDiv}>
+      <div className={Style.block1}>
+        <p>SIMPLICITY</p>
+      </div>
+      <div className={Style.block1}>
+        <p>CONSISTENCY</p>
+      </div>
+      <div className={Style.block1}>
+        <p>CLASSICAL</p>
+      </div>
+      <div className={Style.block1}>
+        <p>DETAILED ATTENTION</p>
+      </div>
+      </div>
+     
       
     </div>
-
-   </div>
-    
+     
     </>
-  )
-}
+  );
+};
 
-export default AboutMe
+export default AboutMe;

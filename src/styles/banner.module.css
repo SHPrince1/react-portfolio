@@ -284,16 +284,38 @@ body {
   position: absolute;
   margin-top: 148px;
 }
+.img1{
+  width: 100%;
+}
 
 }
 @media only screen and (max-width: 425px) {
   /*Small smartphones [325px -> 425px]*/
-  .contentDiv {
-    /* border: 1px solid red; */
-    padding: 2px;
-    margin: 50px auto auto auto;
+ 
+
+
+  .connectDiv{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0 auto;
+    width: 89%;
     height: auto;
-    /* position: relative; */
+  }
+
+
+  .followBox a{
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    font-size: 1px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
   }
   .videoContainer{
     margin-top: -100px;
@@ -306,13 +328,16 @@ body {
     justify-content: space-around;
     box-shadow: 0px 0px 0px 0px #707070;
     /* margin-top: 80px; */
-    margin-top: 705px;
+    margin-top: 150px;
     height: 681px;
   }
   .textPart {
     /* border: 1px solid #000; */
     width: 95%;
     padding: 10px;
+  }
+  .aboutMeText{
+    width: 100%;
   }
   .welcome {
     background-color: #000;
@@ -347,6 +372,7 @@ body {
     margin-top: 20px;
     font-family: poppins;
   }
+  
   .connectDivLink {
     border: 2px solid #fff;
     width: 160px;
@@ -355,7 +381,7 @@ body {
     display: flex;
     align-items: center;
     border-radius: 31px;
-    gap: 10px;
+    gap: 8px;
     background-color: #000;
 
     color: #fff;
@@ -379,19 +405,21 @@ body {
     background-position: left bottom;
   }
   .connectDiv a {
-    /*color: #fff;
-  */
-  display: flex;
-  font-size: 16px !important;
-  align-items: center;
-  gap: 18px;
-  transition: all ease-in-out 0.5s;
-  background: linear-gradient(to right, white 50%, #121212 50%);
-  background-position: right bottom;
-  background-size: 200% 100%;
-  width: 190px;
-  height: 45px;
-  }
+    color: #fff; 
+    display: flex;
+    font-size: 10px !important;
+    align-items: center;
+    gap: 18px;
+    transition: all ease-in-out 0.5s;
+    background: linear-gradient(to right, white 50%, #121212 50%);
+    background-position: right bottom;
+    background-size: 200% 100%;
+    width: 143px;
+    height: 37px;
+    border-radius: 10px;
+  
+
+}
 
   .connectDiv a:hover {
     transition: all ease-in-out.5s;
@@ -403,6 +431,23 @@ body {
     color: #000 !important;
     background-position: left bottom;
   }
+  .followBox {
+    font-size: 10px;
+    width: 125px;
+    border-radius: 10px;
+    height: 38px;
+    /* margin-top: 2px; */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.followBox a{
+  margin-top: 1px;
+}
+.Icon1{
+  font-size: 10px;
+}
   .imageDiv .img {
     width: 280px !important;
     height: 250px;

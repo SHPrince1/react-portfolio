@@ -2,6 +2,7 @@ import React from "react";
 import style from "../styles/banner.module.css";
 import {motion} from 'framer-motion';
 import style2 from "../styles/reactIconStyles.module.css";
+import style3 from '../styles/bannericn.module.css'
 
 
 // https://www.npmjs.com/package/react-plx
@@ -102,13 +103,13 @@ style={{
 
                 
             <NavLink to="https://github.com/SHPrince1">
-              <AiFillGithub size={40} color="white" />
+              <AiFillGithub  color="white"  className={style3.Icon1}/>
             </NavLink>
             <NavLink to="https://www.linkedin.com/feed/">
-              <AiFillLinkedin size={40}  />
+              <AiFillLinkedin  className={style3.Icon1} />
             </NavLink>
             <NavLink to="https://twitter.com/SHPrince_">
-              <AiFillTwitterCircle size={40} />
+              <AiFillTwitterCircle  className={style3.Icon1}/>
             </NavLink>
           
 
