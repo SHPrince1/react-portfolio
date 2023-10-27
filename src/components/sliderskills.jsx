@@ -38,39 +38,47 @@ export default function Sliderskill() {
   return (
 
     <div className={Style.slideBox}><br />
-    <h3 className={Style.hTitle}>MY TECHNOLOGICAL TOOLS</h3>
+    <h3 className={Style.hTitle}>TECHNOLOGICAL TOOLS</h3>
     <Slider {...settings} className={Style.settingsDiv}>
-      <div>
+      <div className={Style.skillBlock}>
+        <p>JavaScript</p>
             
-             <img   className={Style.imgs}src={JS} alt="fireSpot" />
+             {/* <img   className={Style.imgs}src={JS} alt="fireSpot" /> */}
 
           </div>
-          <div>
+          <div  className={Style.skillBlock}>
+            <p>ReactJs</p>
        
-          <img   className={Style.imgs}src={Rct} alt="fireSpot" />
-          </div>
+          {/* <img   className={Style.imgs}src={Rct} alt="fireSpot" /> */}
+          </div >
          
-          <div>
-          <img   className={Style.imgs}src={Next} alt="fireSpot" />
-         
-          </div>
-          <div>
-          <img   className={Style.imgs}src={Tailw} alt="fireSpot" />
-          </div>
-          <div>
-          <img   className={Style.imgs}src={Boost} alt="fireSpot" />
+          <div  className={Style.skillBlock}>
+            <p>NextJs</p>
+          {/* <img   className={Style.imgs}src={Next} alt="fireSpot" /> */}
          
           </div>
-          <div>
-          <img   className={Style.imgs}src={WP} alt="fireSpot" />
+          <div  className={Style.skillBlock} >
+            <p>Redux</p>
+          {/* <img   className={Style.imgs}src={Tailw} alt="fireSpot" /> */}
+          </div>
+          <div  className={Style.skillBlock}>
+            <p>Boostrap</p>
+          {/* <img   className={Style.imgs}src={Boost} alt="fireSpot" /> */}
          
           </div>
-          <div>
-          <img   className={Style.imgs}src={Ant} alt="fireSpot" />
+          <div  className={Style.skillBlock}>
+            <p>WordPresss</p>
+          {/* <img   className={Style.imgs}src={WP} alt="fireSpot" /> */}
          
           </div>
-          <div>
-          <img   className={Style.imgs}src={Sass} alt="fireSpot" />
+          <div  className={Style.skillBlock}>
+            <p>AntDesign</p>
+          {/* <img   className={Style.imgs}src={Ant} alt="fireSpot" /> */}
+         
+          </div>
+          <div  className={Style.skillBlock}>
+            <p>Sass SCSS</p>
+          {/* <img   className={Style.imgs}src={Sass} alt="fireSpot" /> */}
          
           </div>
     </Slider>

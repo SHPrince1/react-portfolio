@@ -46,7 +46,7 @@ const Navbar = () => {
       {/* <div className={scrolled ? 'scrolled' : style.parentDiv}> */}
         <div className={style.logoDiv}>
           <NavLink to="/">
-            <img src={Logo} size={20} alt="logo"/>
+            <img src={Logo} size={100} alt="logo"/>
           </NavLink>
           {/* <div className={style.menuDiv}>
           <Hamburger distance="sm" />

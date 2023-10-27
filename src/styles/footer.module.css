@@ -1,7 +1,7 @@
 .grandParentDiv{
   width: 99%;
   margin: 0 auto;
-  background-color: #000;
+  background-color: #121212;
   /* background-image: url(../assets/pbg1.jpg); */
   height: 400px;
   display: flex;
@@ -14,7 +14,7 @@
     border: 2px solid #fff;
     
     /*display: flex;
-    */background-color: #000;
+    */background-color: #0C221E;
     width: 88%;
     margin: 80px auto auto auto;
     border-radius:20px ;

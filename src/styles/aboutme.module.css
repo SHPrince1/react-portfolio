@@ -71,7 +71,7 @@ line-height: 1;
 	/*Small smartphones [325px -> 425px]*/
     .generalDiv{
         height: 100%;
-        margin-top: 100px;
+    margin-top: 300px;
     }
    .perentDiv{
     display: flex;
