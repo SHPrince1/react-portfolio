@@ -21,6 +21,7 @@ import ebm from "../assets/ebm.png";
 import country from "../assets/country.png";
 import cod from "../assets/cod.png";
 import t47 from "../assets/t47.png";
+import LinkdlnImage from '../assets/cloned-linkdln.png'
 // import CusTabs from './cus-tabs';
 
 import styles from "../styles/custab.module.css";
@@ -49,6 +50,13 @@ const data = [
     details: "Design and Development",
     image: bwimage,
     url:"https://bw-clone.netlify.app/",
+  },
+  {
+    title: "Bankers Ware house",
+    description: "Linkdln cloned",
+    details: "Frontend Implementations",
+    image: LinkdlnImage,
+    url:   "https://sh-linkdln.netlify.app/",
   },
   {
     title: "Bankers Ware house",
