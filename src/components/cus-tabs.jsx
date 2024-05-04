@@ -37,13 +37,7 @@ const data = [
     roleplayed:"Designed the frontend user-interface",
     url:   "https://codtravels.com/",
   },
-  {
-    title: "274 TRAVELS",
-    description: "AIRLINE BOOKING WEB APP",
-    details: "Design and Development",
-    image: t47,
-    url:   "https://247travels.com/",
-  },
+  
    {
     title: "Bankers Ware house",
     description: "Company's website",
