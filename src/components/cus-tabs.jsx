@@ -66,13 +66,13 @@ const data = [
     image: store,
     url:   "https://benevolent-bombolone-c31318.netlify.app/",
   },
-  {
-    title: "Bankers Ware house",
-    description: "A Logistics Website",
-    details: "Design and Development",
-    image: products,
-    url:"https://justmove.com.ng",
-  },
+  // {
+  //   title: "Bankers Ware house",
+  //   description: "A Logistics Website",
+  //   details: "Design and Development",
+  //   image: products,
+  //   url:"https://justmove.com.ng",
+  // },
   
   {
     title: "Bankers Ware house",
