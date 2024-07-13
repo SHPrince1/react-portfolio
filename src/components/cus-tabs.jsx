@@ -21,6 +21,8 @@ import ebm from "../assets/ebm.png";
 import country from "../assets/country.png";
 import cod from "../assets/cod.png";
 import t47 from "../assets/t47.png";
+import Youtube from "../assets/youtube.png";
+
 import LinkdlnImage from '../assets/cloned-linkdln.png'
 // import CusTabs from './cus-tabs';
 
