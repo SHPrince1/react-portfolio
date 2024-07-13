@@ -39,6 +39,13 @@ const data = [
   },
   
    {
+    title: "SylTube",
+    description: "Movies Database",
+    details: "Design and Development",
+    image: bwimage,
+    url:"https://syltube.netlify.app/",
+  },
+   {
     title: "Bankers Ware house",
     description: "Company's website",
     details: "Design and Development",
