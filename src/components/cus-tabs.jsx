@@ -14,6 +14,7 @@ import MySkills from "../components/my-skills"
 import style from "../styles/project.module.css";
 // images
 import bwimage from "../assets/bwimage.png";
+import syltube from "../assets/syltube.png";
 import store from "../assets/store.png";
 import products from "../assets/products.png";
 import calcu from "../assets/calcu.png";
@@ -44,7 +45,7 @@ const data = [
     title: "SylTube",
     description: "Movies Database",
     details: "Design and Development",
-    image: bwimage,
+    image: syltube,
     url:"https://syltube.netlify.app/",
   },
    {
