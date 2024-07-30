@@ -31,7 +31,14 @@ import styles from "../styles/custab.module.css";
 import style2 from '../styles/project.module.css'
 
 const data = [
- 
+   {
+    title: "SylTube",
+    description: "Movies Database",
+    details: "Design and Development",
+    image: syltube,
+    url:"https://syltube.netlify.app/",
+  },
+  
   {
     title: "COD TRAVELS",
     description: "A traveling web app for flight booking",
@@ -39,14 +46,6 @@ const data = [
     image: cod,
     roleplayed:"Designed the frontend user-interface",
     url:   "https://codtravels.com/",
-  },
-  
-   {
-    title: "SylTube",
-    description: "Movies Database",
-    details: "Design and Development",
-    image: syltube,
-    url:"https://syltube.netlify.app/",
   },
    {
     title: "Bankers Ware house",
